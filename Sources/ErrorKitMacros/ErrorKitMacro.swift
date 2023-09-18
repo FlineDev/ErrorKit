@@ -23,5 +23,7 @@ public struct RichErrorMacro: ExpressionMacro {
 struct ErrorKitPlugin: CompilerPlugin {
    let providingMacros: [Macro.Type] = [
       RichErrorMacro.self,
+      ThrowsToResultMacro.self,
+      ThrowMacro.self,
    ]
 }

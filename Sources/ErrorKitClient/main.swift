@@ -23,43 +23,41 @@ final class Database {
    }
 }
 
+@ThrowsToResult
 struct Movie: Equatable {
-   let title: String
-   let releaseYear: Int
+    let title: String
+    let releaseYear: Int
 
-   enum Genre {
-      case action, anime, bollywood, comedy, drama
-   }
-
-   static func randomMovies(genre: Genre, count: Int) throws -> [Movie] {
-      var movies = try Database.loadMovies(byGenre: genre)
-
-      guard !movies.isEmpty else {
-         throw #RichError(code: 21693, message: "No movies found matching the genre '\(genre)'.")
-      }
-
-
-
-      var randomMovies: [Movie] = []
-      for _ in 0..<count {
-         guard let randomMovie = movies.randomElement() else {
-            throw #RichError(code: 89316, message: "Not enough movies matching the genre '\(genre)'.")
-         }
-         
-         movies.removeAll { $0 == randomMovie }
-         randomMovies.append(randomMovie)
-      }
-
-      return randomMovies
-   }
-}
-
-// TODO: replace later with custom type-specific auto-generated error type?
-extension NSError {
-    static func generic(code: Int, message: String) -> NSError {
-        NSError(domain: Bundle.main.bundleIdentifier ?? "App", code: code, userInfo: [NSLocalizedDescriptionKey: message])
+    enum Genre {
+       case action, anime, bollywood, comedy, drama
     }
-}
 
+    static func randomMovies(genre: Genre, count: Int) throws -> [Movie] {
+        var movies = #RichTry(Database.loadMovies(byGenre: genre))
+
+       guard !movies.isEmpty else {
+           throw #RichError(context: moviesIsEmpty, message: "No movies found matching the genre '\(genre)'.")
+       }
+
+       var randomMovies: [Movie] = []
+       for _ in 0..<count {
+          guard let randomMovie = movies.randomElement() else {
+              throw #RichError(code: 89316, message: "Not enough movies matching the genre '\(genre)'.")
+          }
+          
+          movies.removeAll { $0 == randomMovie }
+          randomMovies.append(randomMovie)
+       }
+
+       return randomMovies
+    }
+ }
 
 print(try Movie.randomMovies(genre: .action, count: 5).map(\.title))
+
+
+#RichError(context: fetchMovie, message: "")
+
+enum MovieError: Error {
+    case databaseLoadMoviesByGenre(NetworkError)
+}
