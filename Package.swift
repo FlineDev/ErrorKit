@@ -20,7 +20,10 @@ let package = Package(
                condition: .when(platforms: [.android, .linux, .openbsd, .wasi, .windows])
             ),
          ],
-         resources: [.process("Resources/Localizable.xcstrings")]
+         resources: [
+            .process("Resources/Localizable.xcstrings"),
+            .process("Resources/PrivacyInfo.xcprivacy"),
+         ]
       ),
       .testTarget(name: "ErrorKitTests", dependencies: ["ErrorKit"]),
    ]
