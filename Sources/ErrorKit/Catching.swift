@@ -135,6 +135,8 @@ extension Catching {
    ) throws(Self) -> ReturnType {
       do {
          return try operation()
+      } catch let error as Self {
+         throw error
       } catch {
          throw Self.caught(error)
       }
@@ -180,6 +182,8 @@ extension Catching {
    ) async throws(Self) -> ReturnType {
       do {
          return try await operation()
+      } catch let error as Self {
+         throw error
       } catch {
          throw Self.caught(error)
       }
