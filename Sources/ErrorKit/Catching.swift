@@ -139,4 +139,49 @@ extension Catching {
          throw Self.caught(error)
       }
    }
+
+   /// Executes an async throwing operation and automatically wraps any thrown errors into this error type's `caught` case,
+   /// while passing through the operation's return value on success. Great for functions using typed throws.
+   ///
+   /// # Overview
+   /// This function provides a convenient way to:
+   /// - Execute async throwing operations
+   /// - Automatically wrap any errors into the current error type
+   /// - Pass through return values from the wrapped code
+   /// - Maintain type safety with typed throws
+   ///
+   /// # Example
+   /// ```swift
+   /// struct ProfileRepository {
+   ///     func loadProfile(id: String) throws(ProfileError) {
+   ///         // Regular error throwing for validation
+   ///         guard id.isValidFormat else {
+   ///             throw ProfileError.validationFailed(field: "id")
+   ///         }
+   ///
+   ///         // Automatically wrap any database or file errors while handling return value
+   ///         let userData = try await ProfileError.catch {
+   ///             let user = try await database.loadUser(id)
+   ///             let settings = try await fileSystem.readUserSettings(user.settingsPath)
+   ///             return UserProfile(user: user, settings: settings)
+   ///         }
+   ///
+   ///         // Use the loaded data
+   ///         self.currentProfile = userData
+   ///     }
+   /// }
+   /// ```
+   ///
+   /// - Parameter operation: The async throwing operation to execute.
+   /// - Returns: The value returned by the operation if successful.
+   /// - Throws: An instance of `Self` with the original error wrapped in the `caught` case.
+   public static func `catch`<ReturnType>(
+      _ operation: () async throws -> ReturnType
+   ) async throws(Self) -> ReturnType {
+      do {
+         return try await operation()
+      } catch {
+         throw Self.caught(error)
+      }
+   }
 }
