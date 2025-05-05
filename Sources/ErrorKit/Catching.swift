@@ -178,7 +178,7 @@ extension Catching {
    /// - Returns: The value returned by the operation if successful.
    /// - Throws: An instance of `Self` with the original error wrapped in the `caught` case.
    public static func `catch`<ReturnType>(
-      _ operation: () async throws -> ReturnType
+      _ operation: @Sendable () async throws -> ReturnType
    ) async throws(Self) -> ReturnType {
       do {
          return try await operation()
