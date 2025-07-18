@@ -2,12 +2,14 @@ import Foundation
 
 extension String {
    #if canImport(CryptoKit)
-   // On Apple platforms, use the modern localization API with Bundle.module
-   static func localized(key: StaticString, defaultValue: String.LocalizationValue) -> String {
-      return String(
-         localized: key,
-         defaultValue: defaultValue,
-         bundle: Bundle.module
+   // On Apple platforms, use the old localization API with Bundle.module
+   static func localized(key: StaticString, defaultValue: String) -> String {
+      return NSLocalizedString(
+         key.description,
+         tableName: nil,
+         bundle: Bundle.module,
+         value: defaultValue,
+         comment: defaultValue
       )
    }
    #else

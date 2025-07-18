@@ -1,6 +1,7 @@
 #if canImport(OSLog)
 import OSLog
 
+@available(macOS 11, *)
 extension Logger {
    /// Logs a debug message with complete error chain description
    ///
