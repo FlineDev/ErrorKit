@@ -60,6 +60,7 @@ extension ErrorKit {
    /// ```
    ///
    /// - See Also: ``exportLogFile(ofLast:minLevel:)`` for when you need a URL with the log content written to a text file
+   @available(macOS 13, *)
    public static func loggedData(ofLast duration: Duration, minLevel: OSLogEntryLog.Level = .notice) throws -> Data {
       let logStore = try OSLogStore(scope: .currentProcessIdentifier)
 
@@ -86,6 +87,7 @@ extension ErrorKit {
    /// - Throws: Errors if log store access fails or if writing to the file fails
    ///
    /// - See Also: ``loggedData(ofLast:minLevel:)`` for when you need the log content as Data directly
+   @available(macOS 13, *)
    public static func exportLogFile(ofLast duration: Duration, minLevel: OSLogEntryLog.Level = .notice) throws -> URL {
       let logData = try loggedData(ofLast: duration, minLevel: minLevel)
 
@@ -140,6 +142,7 @@ extension ErrorKit {
    ///     attachments: [logAttachment]
    /// )
    /// ```
+   @available(macOS 13, *)
    public static func logAttachment(
       ofLast duration: Duration,
       minLevel: OSLogEntryLog.Level = .notice,
@@ -157,6 +160,7 @@ extension ErrorKit {
    }
 }
 
+@available(macOS 13, *)
 extension Duration {
    /// Returns the duration as a `TimeInterval`.
    ///
