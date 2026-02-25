@@ -5,6 +5,7 @@
    import Foundation
    import OSLog
 
+   @available(iOS 16, tvOS 16, *)
    extension ErrorKit {
       /// Returns log data from the unified logging system for a specified time period and minimum level.
       ///
@@ -157,6 +158,7 @@
       }
    }
 
+   @available(iOS 16, tvOS 16, *)
    extension Duration {
       /// Returns the duration as a `TimeInterval`.
       ///
