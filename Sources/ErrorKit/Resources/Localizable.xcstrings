@@ -72,7 +72,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nepodařilo se navázat spojení s databází. Zkontroluj své síťové nastavení a zkus to znovu."
+            "value" : "Nepodařilo se navázat spojení s databází. Zkontrolujte své síťové nastavení a zkuste to znovu."
           }
         },
         "da" : {
@@ -162,7 +162,7 @@
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nem sikerült kapcsolódni az adatbázishoz. Ellenőrizd a hálózati beállításokat, és próbáld újra."
+            "value" : "Nem sikerült kapcsolódni az adatbázishoz. Ellenőrizze a hálózati beállításokat, és próbálja újra."
           }
         },
         "id" : {
@@ -228,13 +228,13 @@
         "pt-PT" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Não foi possível estabelecer uma conexão com a base de dados. Verifica as tuas definições de rede e tenta novamente."
+            "value" : "Não foi possível estabelecer uma ligação à base de dados. Verifique as definições de rede e tente novamente."
           }
         },
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Imposibil de stabilit o conectare la baza de date. Verifică setările rețelei și încearcă din nou."
+            "value" : "Imposibil de stabilit o conectare la baza de date. Verificați setările rețelei și încercați din nou."
           }
         },
         "ru" : {
@@ -322,7 +322,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Operaci databáze pro %@ se nepodařilo dokončit. Zkus akci znovu."
+            "value" : "Operaci databáze pro %@ se nepodařilo dokončit. Zkuste akci znovu."
           }
         },
         "da" : {
@@ -340,7 +340,7 @@
         "el" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Η λειτουργία της βάσης δεδομένων για %@ δεν μπόρεσε να ολοκληρωθεί. Παρακαλώ προσπαθήστε ξανά την ενέργεια."
+            "value" : "Η λειτουργία της βάσης δεδομένων για %@ δεν μπόρεσε να ολοκληρωθεί. Δοκιμάστε ξανά την ενέργεια."
           }
         },
         "en" : {
@@ -412,7 +412,7 @@
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Az adatbázisművelet a(z) %@ nem fejeződött be. Kérlek, próbáld újra a műveletet."
+            "value" : "A(z) %@ esetén az adatbázisművelet nem fejeződött be. Kérjük, próbálja újra a műveletet."
           }
         },
         "id" : {
@@ -436,7 +436,7 @@
         "kk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%@ үшін деректер базасындағы операцияны орындау мүмкін болмады. Қарамағын қайтадан жасаңыз."
+            "value" : "%@ үшін деректер базасындағы операцияны орындау мүмкін болмады. Әрекетті қайталап көріңіз."
           }
         },
         "ko" : {
@@ -478,19 +478,19 @@
         "pt-PT" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "A operação da base de dados para %@ não pôde ser concluída. Por favor, tenta a ação novamente."
+            "value" : "A operação da base de dados para %@ não pôde ser concluída. Por favor, tente a ação novamente."
           }
         },
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Operațiunea bazei de date pentru %@ nu a putut fi finalizată. Te rog să reîncerci acțiunea."
+            "value" : "Operațiunea bazei de date pentru %@ nu a putut fi finalizată. Reîncercați acțiunea."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Операцию базы данных для %@ не удалось завершить. Пожалуйста, повторите действие."
+            "value" : "Операцию базы данных для %@ не удалось завершить. Повторите действие."
           }
         },
         "sk" : {
@@ -632,7 +632,7 @@
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "L’'enregistrement %1$@ n'a pas été trouvé dans la base de données. Vérifiez les détails et réessayez."
+            "value" : "L'enregistrement %1$@ n'a pas été trouvé dans la base de données. Vérifiez les détails et réessayez."
           }
         },
         "fr-CA" : {
@@ -644,7 +644,7 @@
         "he" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "אשר את הפרטים ונסה שוב."
+            "value" : "הרשומה %1$@ לא נמצאה במסד הנתונים. אשר את הפרטים ונסה שוב."
           }
         },
         "hi" : {
@@ -656,13 +656,13 @@
         "hr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Provjerite podatke i pokušajte ponovno."
+            "value" : "Zapis %1$@ nije pronađen u bazi podataka. Provjerite podatke i pokušajte ponovno."
           }
         },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "A %1$@ rekord nem található az adatbázisban. Ellenőrizd az adatokat és próbáld újra."
+            "value" : "A %1$@ rekord nem található az adatbázisban. Ellenőrizze az adatokat, és próbálja újra."
           }
         },
         "id" : {
@@ -686,7 +686,7 @@
         "kk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Деректер базасында %1$@ жазбасы табылмады. Мәлiметтердi тексерiп, қайталап көріңіз."
+            "value" : "Деректер базасында %1$@ жазбасы табылмады. Мәліметтерді тексеріп, қайталап көріңіз."
           }
         },
         "ko" : {
@@ -734,7 +734,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Înregistrarea %1$@ nu a fost găsită în baza de date. Verifică detaliile și încearcă din nou."
+            "value" : "Înregistrarea %1$@ nu a fost găsită în baza de date. Verificați detaliile și încercați din nou."
           }
         },
         "ru" : {
@@ -764,7 +764,7 @@
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Detayları kontrol et ve tekrar dene."
+            "value" : "%1$@ kaydı veritabanında bulunamadı. Bilgileri kontrol edin ve tekrar deneyin."
           }
         },
         "uk" : {
@@ -888,7 +888,7 @@
         "fr-CA" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Le dossier %2$@ avec l'ID %1$@ n'a pas été trouvé dans la base de données. Vérifiez les détails et réessayez."
+            "value" : "L'enregistrement %1$@ avec l'ID %2$@ n'a pas été trouvé dans la base de données. Vérifiez les détails et réessayez."
           }
         },
         "he" : {
@@ -912,7 +912,7 @@
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "A(z) %1$@ rekord %2$@ azonosítóval nem található az adatbázisban. Ellenőrizd az adatokat, és próbáld újra."
+            "value" : "A(z) %1$@ rekord %2$@ azonosítóval nem található az adatbázisban. Ellenőrizze az adatokat, és próbálja újra."
           }
         },
         "id" : {
@@ -984,13 +984,13 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Înregistrarea %1$@ cu ID %2$@ nu a fost găsită în baza de date. Verifică detaliile și încearcă din nou."
+            "value" : "Înregistrarea %1$@ cu ID %2$@ nu a fost găsită în baza de date. Verificați detaliile și încercați din nou."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Проверьте данные и попробуйте ещё раз."
+            "value" : "Запись %1$@ с ID %2$@ не найдена в базе данных. Проверьте данные и попробуйте ещё раз."
           }
         },
         "sk" : {
@@ -1072,7 +1072,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Soubor %@ nebyl nalezen. Ověř cestu k souboru a zkus to znovu."
+            "value" : "Soubor %@ nebyl nalezen. Ověřte cestu k souboru a zkuste to znovu."
           }
         },
         "da" : {
@@ -1090,7 +1090,7 @@
         "el" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Δεν ήταν δυνατός ο εντοπισμός του αρχείου %@. Παρακαλώ ελέγξτε τη διαδρομή του αρχείου και δοκιμάστε ξανά."
+            "value" : "Δεν ήταν δυνατός ο εντοπισμός του αρχείου %@. Ελέγξτε τη διαδρομή του αρχείου και δοκιμάστε ξανά."
           }
         },
         "en" : {
@@ -1162,7 +1162,7 @@
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "A %@ fájl nem található. Kérlek, ellenőrizd a fájl elérési útját és próbáld újra."
+            "value" : "A %@ fájl nem található. Kérjük, ellenőrizze a fájl elérési útját, és próbálja újra."
           }
         },
         "id" : {
@@ -1216,7 +1216,7 @@
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nie można zlokalizować pliku %@. Proszę zweryfikować ścieżkę pliku i spróbować ponownie."
+            "value" : "Nie można zlokalizować pliku %@. Zweryfikuj ścieżkę pliku i spróbuj ponownie."
           }
         },
         "pt-BR" : {
@@ -1228,19 +1228,19 @@
         "pt-PT" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Não foi possível localizar o ficheiro %@. Por favor, verifica o caminho do ficheiro e tenta novamente."
+            "value" : "Não foi possível localizar o ficheiro %@. Por favor, verifique o caminho do ficheiro e tente novamente."
           }
         },
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Fișierul %@ nu a putut fi localizat. Te rog să verifici calea fișierului și să încerci din nou."
+            "value" : "Fișierul %@ nu a putut fi localizat. Verificați calea fișierului și încercați din nou."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Файл %@ не удалось найти. Пожалуйста, проверьте путь к файлу и повторите попытку."
+            "value" : "Файл %@ не удалось найти. Проверьте путь к файлу и повторите попытку."
           }
         },
         "sk" : {
@@ -1322,7 +1322,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Při pokusu o čtení souboru %@ došlo k chybě. Zkontroluj oprávnění k souboru a zkus to znovu."
+            "value" : "Při pokusu o čtení souboru %@ došlo k chybě. Zkontrolujte oprávnění k souboru a zkuste to znovu."
           }
         },
         "da" : {
@@ -1412,7 +1412,7 @@
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Hiba történt a %@ fájl olvasása során. Kérlek, ellenőrizd a fájl jogosultságait és próbáld újra."
+            "value" : "Hiba történt a %@ fájl olvasása során. Kérjük, ellenőrizze a fájl jogosultságait, és próbálja újra."
           }
         },
         "id" : {
@@ -1478,19 +1478,19 @@
         "pt-PT" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ocorreu um erro ao tentar ler o ficheiro %@. Verifica as permissões do ficheiro e tenta novamente."
+            "value" : "Ocorreu um erro ao tentar ler o ficheiro %@. Verifique as permissões do ficheiro e tente novamente."
           }
         },
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "A apărut o eroare în timpul încercării de a citi fișierul %@. Te rog să verifici permisiunile fișierului și să încerci din nou."
+            "value" : "A apărut o eroare în timpul încercării de a citi fișierul %@. Verificați permisiunile fișierului și încercați din nou."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Произошла ошибка при попытке прочитать файл %@. Пожалуйста, проверьте разрешения на файл и повторите попытку."
+            "value" : "Произошла ошибка при попытке прочитать файл %@. Проверьте разрешения на файл и повторите попытку."
           }
         },
         "sk" : {
@@ -1572,7 +1572,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nepodařilo se zapsat do souboru %@. Ujisti se, že máš potřebná oprávnění, a zkus to znovu."
+            "value" : "Nepodařilo se zapsat do souboru %@. Ujistěte se, že máte potřebná oprávnění, a zkuste to znovu."
           }
         },
         "da" : {
@@ -1662,7 +1662,7 @@
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nem sikerült írni a %@ fájlba. Győződj meg róla, hogy megvannak a szükséges jogosultságok, és próbáld újra."
+            "value" : "Nem sikerült írni a %@ fájlba. Győződjön meg róla, hogy megvannak a szükséges jogosultságok, és próbálja újra."
           }
         },
         "id" : {
@@ -1728,19 +1728,19 @@
         "pt-PT" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Não é possível escrever no ficheiro %@. Assegura-te de que tens as permissões necessárias e tenta novamente."
+            "value" : "Não é possível escrever no ficheiro %@. Assegure-se de que tem as permissões necessárias e tente novamente."
           }
         },
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Imposibil de scris în fișierul %@. Asigură-te că ai permisiunile necesare și încearcă din nou."
+            "value" : "Imposibil de scris în fișierul %@. Asigurați-vă că aveți permisiunile necesare și încercați din nou."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Не удалось записать в файл %@. Убедитесь, что у вас есть необходимые разрешения, и повторите попытку."
+            "value" : "Не удалось записать в файл %@. Убедитесь, что у Вас есть необходимые разрешения, и повторите попытку."
           }
         },
         "sk" : {
@@ -1822,7 +1822,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nastala chyba se žádostí (Kód: %1$lld). %2$@. Zkontroluj to a zkus to znovu."
+            "value" : "Nastala chyba se žádostí (Kód: %1$lld). %2$@. Zkontrolujte to a zkuste to znovu."
           }
         },
         "da" : {
@@ -1840,7 +1840,7 @@
         "el" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Υπήρξε πρόβλημα με το αίτημα (Κωδικός: %1$lld). %2$@. Παρακαλώ ελέγξτε και δοκιμάστε ξανά."
+            "value" : "Υπήρξε πρόβλημα με το αίτημα (Κωδικός: %1$lld). %2$@. Ελέγξτε και δοκιμάστε ξανά."
           }
         },
         "en" : {
@@ -1906,13 +1906,13 @@
         "hr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Došlo je do problema s zahtjevom (Kod: %1$lld). %2$@. Molimo provjerite i pokušajte ponovo."
+            "value" : "Došlo je do problema sa zahtjevom (Kod: %1$lld). %2$@. Molimo provjerite i pokušajte ponovo."
           }
         },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Probléma történt a kéréssel (Kód: %1$lld). %2$@. Kérlek, ellenőrizd és próbáld újra."
+            "value" : "Probléma történt a kéréssel (Kód: %1$lld). %2$@. Kérjük, ellenőrizze, és próbálja újra."
           }
         },
         "id" : {
@@ -1936,7 +1936,7 @@
         "kk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Сұрау кезінде мәселе болды (Код: %1$lld). %2$@. Қарап шығып, қайтадан жасаңыз."
+            "value" : "Сұрау кезінде мәселе болды (Код: %1$lld). %2$@. Қарап шығып, қайталап көріңіз."
           }
         },
         "ko" : {
@@ -1966,31 +1966,31 @@
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Wystąpił problem z żądaniem (Kod: %1$lld). %2$@. Proszę sprawdzić i spróbować ponownie."
+            "value" : "Wystąpił problem z żądaniem (Kod: %1$lld). %2$@. Sprawdź je i spróbuj ponownie."
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Por favor, verifique e tente novamente."
+            "value" : "Houve um problema com a solicitação (Código: %1$lld). %2$@. Por favor, verifique e tente novamente."
           }
         },
         "pt-PT" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Houve um problema com o pedido (Código: %1$lld). %2$@. Por favor, revê e tenta novamente."
+            "value" : "Houve um problema com o pedido (Código: %1$lld). %2$@. Por favor, reveja e tente novamente."
           }
         },
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "A fost o problemă cu cererea (Cod: %1$lld). %2$@. Te rog să revizuiești și să încerci din nou."
+            "value" : "A fost o problemă cu cererea (Cod: %1$lld). %2$@. Revizuiți cererea și încercați din nou."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Произошла проблема с запросом (Код: %1$lld). %2$@. Пожалуйста, проверьте и повторите попытку."
+            "value" : "Произошла проблема с запросом (Код: %1$lld). %2$@. Проверьте и повторите попытку."
           }
         },
         "sk" : {
@@ -2090,7 +2090,7 @@
         "el" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Δεν ήταν δυνατή η επεξεργασία της απάντησης του διακομιστή. Παρακαλώ ξαναδοκιμάστε ή επικοινωνήστε με την υποστήριξη αν το πρόβλημα επιμένει."
+            "value" : "Δεν ήταν δυνατή η επεξεργασία της απάντησης του διακομιστή. Ξαναδοκιμάστε ή επικοινωνήστε με την υποστήριξη αν το πρόβλημα επιμένει."
           }
         },
         "en" : {
@@ -2162,7 +2162,7 @@
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "A szerver válaszát nem tudjuk feldolgozni. Kérlek, próbáld újra, vagy vedd fel a kapcsolatot a támogatással, ha a probléma fennáll."
+            "value" : "A szerver válaszát nem tudjuk feldolgozni. Kérjük, próbálja újra, vagy vegye fel a kapcsolatot a támogatással, ha a probléma fennáll."
           }
         },
         "id" : {
@@ -2234,13 +2234,13 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nu am putut procesa răspunsul serverului. Te rugăm să încerci din nou sau să contactezi suportul dacă problema persistă."
+            "value" : "Răspunsul serverului nu a putut fi procesat. Încercați din nou sau contactați suportul dacă problema persistă."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Не удалось обработать ответ сервера. Пожалуйста, попробуйте еще раз или свяжитесь с поддержкой, если проблема остается."
+            "value" : "Не удалось обработать ответ сервера. Попробуйте еще раз или свяжитесь с поддержкой, если проблема остается."
           }
         },
         "sk" : {
@@ -2340,7 +2340,7 @@
         "el" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Δεν ήταν δυνατή η σύνδεση στο διαδίκτυο. Παρακαλώ ελέγξτε τις ρυθμίσεις δικτύου σας και ξαναδοκιμάστε."
+            "value" : "Δεν ήταν δυνατή η σύνδεση στο διαδίκτυο. Ελέγξτε τις ρυθμίσεις δικτύου σας και ξαναδοκιμάστε."
           }
         },
         "en" : {
@@ -2412,7 +2412,7 @@
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nem lehet csatlakozni az internethez. Kérlek, ellenőrizd a hálózati beállításaidat, és próbáld újra."
+            "value" : "Nem lehet csatlakozni az internethez. Kérjük, ellenőrizze a hálózati beállításokat, és próbálja újra."
           }
         },
         "id" : {
@@ -2466,7 +2466,7 @@
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nie można połączyć się z Internetem. Sprawdź swoje ustawienia sieciowe i spróbuj ponownie."
+            "value" : "Nie można połączyć się z Internetem. Sprawdź ustawienia sieciowe i spróbuj ponownie."
           }
         },
         "pt-BR" : {
@@ -2478,19 +2478,19 @@
         "pt-PT" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Não foi possível conectar à internet. Por favor, verifique as suas definições de rede e tente novamente."
+            "value" : "Não foi possível ligar à internet. Por favor, verifique as suas definições de rede e tente novamente."
           }
         },
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nu am putut să ne conectăm la internet. Te rugăm să verifici setările rețelei și să încerci din nou."
+            "value" : "Conectarea la internet nu a reușit. Verificați setările rețelei și încercați din nou."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Не удалось подключиться к интернету. Пожалуйста, проверьте настройки сети и попробуйте еще раз."
+            "value" : "Не удалось подключиться к интернету. Проверьте настройки сети и попробуйте еще раз."
           }
         },
         "sk" : {
@@ -2740,7 +2740,7 @@
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Сервер столкнулся с ошибкой (Код: %lld)."
+            "value" : "Сервер столкнулся с ошибкой (Код: %lld). "
           }
         },
         "sk" : {
@@ -2840,7 +2840,7 @@
         "el" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Το αίτημα δικτύου χρειάστηκε πολύ χρόνο για να ολοκληρωθεί. Παρακαλώ ελέγξτε τη σύνδεσή σας και ξαναδοκιμάστε."
+            "value" : "Το αίτημα δικτύου χρειάστηκε πολύ χρόνο για να ολοκληρωθεί. Ελέγξτε τη σύνδεσή σας και ξαναδοκιμάστε."
           }
         },
         "en" : {
@@ -2912,7 +2912,7 @@
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "A hálózati kérelem végrehajtása túl sokáig tartott. Kérlek, ellenőrizd a kapcsolatodat, és próbáld újra."
+            "value" : "A hálózati kérelem végrehajtása túl sokáig tartott. Kérjük, ellenőrizze a kapcsolatot, és próbálja újra."
           }
         },
         "id" : {
@@ -2966,7 +2966,7 @@
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Żądanie sieciowe zajęło zbyt dużo czasu na zakończenie. Sprawdź swoje połączenie i spróbuj ponownie."
+            "value" : "Żądanie sieciowe zajęło zbyt dużo czasu na zakończenie. Sprawdź połączenie i spróbuj ponownie."
           }
         },
         "pt-BR" : {
@@ -2978,19 +2978,19 @@
         "pt-PT" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "A solicitação de rede demorou demasiado a ser concluída. Por favor, verifique a sua conexão e tente novamente."
+            "value" : "O pedido de rede demorou demasiado a ser concluído. Por favor, verifique a ligação e tente novamente."
           }
         },
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Cererea de rețea a durat prea mult pentru a se finaliza. Te rugăm să verifici conexiunea ta și să încerci din nou."
+            "value" : "Cererea de rețea a durat prea mult pentru a se finaliza. Verificați conexiunea și încercați din nou."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Запрос в сеть занял слишком много времени. Пожалуйста, проверьте соединение и попробуйте снова."
+            "value" : "Запрос в сеть занял слишком много времени. Проверьте соединение и попробуйте снова."
           }
         },
         "sk" : {
@@ -3090,7 +3090,7 @@
         "el" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Η διαδικασία ακυρώθηκε κατόπιν αιτήματος σας. Μπορείτε να ξαναδοκιμάσετε την ενέργεια αν χρειαστεί."
+            "value" : "Η διαδικασία ακυρώθηκε κατόπιν αιτήματός σας. Μπορείτε να ξαναδοκιμάσετε την ενέργεια αν χρειαστεί."
           }
         },
         "en" : {
@@ -3162,13 +3162,13 @@
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "A műveletet a kérésedre lemondták. Szükség esetén újra megpróbálhatod a műveletet."
+            "value" : "A műveletet az Ön kérésére megszakítottuk. Szükség esetén újra megpróbálhatja a műveletet."
           }
         },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Operasi dibatalkan atas permintaanmu. Kamu dapat mencoba ulang tindakan tersebut jika diperlukan."
+            "value" : "Operasi dibatalkan atas permintaan Anda. Anda dapat mencoba ulang tindakan tersebut jika diperlukan."
           }
         },
         "it" : {
@@ -3234,13 +3234,13 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Operația a fost anulată la cererea ta. Poți relua acțiunea dacă este necesar."
+            "value" : "Operația a fost anulată la cererea dvs. Puteți relua acțiunea dacă este necesar."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Операция была отменена по вашему запросу. Вы можете повторить действие при необходимости."
+            "value" : "Операция была отменена по Вашему запросу. Вы можете повторить действие при необходимости."
           }
         },
         "sk" : {
@@ -3340,7 +3340,7 @@
         "el" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Η διαδικασία δεν μπόρεσε να ξεκινήσει επειδή μια απαιτούμενη συνιστώσα απέτυχε να αρχίσει: %@. Παρακαλώ επανεκκινήστε την εφαρμογή ή επικοινωνήστε με την υποστήριξη."
+            "value" : "Η διαδικασία δεν μπόρεσε να ξεκινήσει επειδή μια απαιτούμενη συνιστώσα απέτυχε να αρχίσει: %@. Επανεκκινήστε την εφαρμογή ή επικοινωνήστε με την υποστήριξη."
           }
         },
         "en" : {
@@ -3370,7 +3370,7 @@
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "ErrorKit"
+            "value" : "No se pudo iniciar la operación porque un componente requerido no se inicializó: %@. Reinicia la aplicación o comunícate con el soporte."
           }
         },
         "fi" : {
@@ -3412,7 +3412,7 @@
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "A művelet nem indítható el, mert egy szükséges komponens nem tudott inicializálódni: %@. Kérlek, indítsd újra az alkalmazást, vagy vedd fel a kapcsolatot a támogatással."
+            "value" : "A művelet nem indítható el, mert egy szükséges komponens nem tudott inicializálódni: %@. Kérjük, indítsa újra az alkalmazást, vagy vegye fel a kapcsolatot a támogatással."
           }
         },
         "id" : {
@@ -3436,7 +3436,7 @@
         "kk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Операция іске қосылмады, себебі қажетті компонент іске қосылуда қате тапты: %@. Қосымшаны қайта іске қосып, немесе қолдау қызметіне хабарласыңыз."
+            "value" : "Операция іске қосылмады, себебі қажетті компонент іске қосылуда қате тапты: %@. Қосымшаны қайта іске қосыңыз немесе қолдау қызметіне хабарласыңыз."
           }
         },
         "ko" : {
@@ -3466,7 +3466,7 @@
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Operacja nie mogła zostać rozpoczęta, ponieważ wymagany komponent nie mógł zostać zainicjalizowany: %@. Proszę zrestartować aplikację lub skontaktować się z pomocą."
+            "value" : "Operacja nie mogła zostać rozpoczęta, ponieważ wymagany komponent nie mógł zostać zainicjalizowany: %@. Zrestartuj aplikację lub skontaktuj się z pomocą."
           }
         },
         "pt-BR" : {
@@ -3484,13 +3484,13 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Operația nu a putut fi începută deoarece un component necesar nu a reușit să se inițializeze: %@. Te rugăm să repornești aplicația sau să contactezi suportul."
+            "value" : "Operația nu a putut fi începută deoarece o componentă necesară nu a reușit să se inițializeze: %@. Reporniți aplicația sau contactați suportul."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Не удалось запустить операцию, поскольку один из необходимых компонентов не инициализировался: %@. Пожалуйста, перезапустите приложение или свяжитесь с поддержкой."
+            "value" : "Не удалось запустить операцию, поскольку один из необходимых компонентов не инициализировался: %@. Перезапустите приложение или свяжитесь с поддержкой."
           }
         },
         "sk" : {
@@ -3572,7 +3572,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Poskytnutý vstup nebyl zpracován správně: %@. Zkontroluj prosím vstup a ujisti se, že odpovídá očekávanému formátu."
+            "value" : "Poskytnutý vstup nebyl zpracován správně: %@. Zkontrolujte prosím vstup a ujistěte se, že odpovídá očekávanému formátu."
           }
         },
         "da" : {
@@ -3590,7 +3590,7 @@
         "el" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Η παρεχόμενη είσοδος δεν μπόρεσε να επεξεργαστεί σωστά: %@. Παρακαλώ επανεξετάστε την είσοδο και βεβαιωθείτε ότι ταιριάζει με την αναμενόμενη μορφή."
+            "value" : "Η παρεχόμενη είσοδος δεν μπόρεσε να επεξεργαστεί σωστά: %@. Επανεξετάστε την είσοδο και βεβαιωθείτε ότι ταιριάζει με την αναμενόμενη μορφή."
           }
         },
         "en" : {
@@ -3662,7 +3662,7 @@
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "A megadott bemeneti adatokat nem sikerült helyesen feldolgozni: %@. Kérjük, ellenőrizd a bemenetet, és győződj meg róla, hogy megfelel a várt formátumnak."
+            "value" : "A megadott bemeneti adatokat nem sikerült helyesen feldolgozni: %@. Kérjük, ellenőrizze a bemenetet, és győződjön meg róla, hogy megfelel a várt formátumnak."
           }
         },
         "id" : {
@@ -3716,7 +3716,7 @@
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Podane dane wejściowe nie mogły zostać przetworzone prawidłowo: %@. Proszę sprawdzić dane i upewnić się, że spełniają oczekiwany format."
+            "value" : "Podane dane wejściowe nie mogły zostać przetworzone prawidłowo: %@. Sprawdź dane i upewnij się, że spełniają oczekiwany format."
           }
         },
         "pt-BR" : {
@@ -3734,19 +3734,19 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Informațiile furnizate nu au putut fi procesate corect: %@. Te rugăm să verifici informațiile și să te asiguri că se încadrează în formatul așteptat."
+            "value" : "Informațiile furnizate nu au putut fi procesate corect: %@. Verificați informațiile și asigurați-vă că se încadrează în formatul așteptat."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Предоставленный ввод не может быть обработан корректно: %@. Пожалуйста, проверьте ввод и убедитесь, что он соответствует ожидаемому формату."
+            "value" : "Предоставленный ввод не может быть обработан корректно: %@. Проверьте ввод и убедитесь, что он соответствует ожидаемому формату."
           }
         },
         "sk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Poskytnutý vstup nebolo možné spracovať správne: %@. Skontroluj prosím vstup a zabezpeč, aby zodpovedal očakávanému formátu."
+            "value" : "Poskytnutý vstup nebolo možné spracovať správne: %@. Skontrolujte prosím vstup a zabezpečte, aby zodpovedal očakávanému formátu."
           }
         },
         "sv" : {
@@ -3764,13 +3764,13 @@
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Verilen girdi doğru bir şekilde işlenemedi: %@. Lütfen girdiyi gözden geçir ve beklenen formatla eşleştiğinden emin ol."
+            "value" : "Verilen girdi doğru bir şekilde işlenemedi: %@. Lütfen girdiyi gözden geçirin ve beklenen formatla eşleştiğinden emin olun."
           }
         },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Введене значення не змогли правильно обробити: %@. Будь ласка, перегляньте введене значення та переконайтеся, що воно відповідає очікуваному формату."
+            "value" : "Введене значення не вдалося правильно обробити: %@. Будь ласка, перегляньте введене значення та переконайтеся, що воно відповідає очікуваному формату."
           }
         },
         "vi" : {
@@ -3918,7 +3918,7 @@
         "id" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Bidang %@ hilang dan harus disediakan untuk melanjutkan."
+            "value" : "Informasi yang diperlukan belum lengkap. Kolom %@ tidak ada dan harus diisi untuk melanjutkan."
           }
         },
         "it" : {
@@ -3966,7 +3966,7 @@
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Wymagane informacje są niekompletne. Pole %@ jest brakujące i musi być dostarczone, aby kontynuować."
+            "value" : "Wymagane informacje są niekompletne. Brakuje pola %@ – podaj je, aby kontynuować."
           }
         },
         "pt-BR" : {
@@ -4072,7 +4072,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Přístup k %@ byl zamítnut. Aby bylo možné tuto funkci využívat, povol prosím oprávnění v nastavení zařízení."
+            "value" : "Přístup k %@ byl zamítnut. Aby bylo možné tuto funkci využívat, povolte prosím oprávnění v nastavení zařízení."
           }
         },
         "da" : {
@@ -4090,7 +4090,7 @@
         "el" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Η πρόσβαση στο %@ απορρίφθηκε. Για να χρησιμοποιήσετε αυτή τη δυνατότητα, παρακαλώ ενεργοποιήστε την άδεια στις ρυθμίσεις της συσκευής σας."
+            "value" : "Η πρόσβαση στο %@ απορρίφθηκε. Για να χρησιμοποιήσετε αυτή τη δυνατότητα, ενεργοποιήστε την άδεια στις ρυθμίσεις της συσκευής σας."
           }
         },
         "en" : {
@@ -4126,7 +4126,7 @@
         "fi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Käyttääksesi tätä ominaisuutta, aktivoi lupa laitteesi Asetuksissa."
+            "value" : "Pääsy kohteeseen %@ evättiin. Käyttääksesi tätä ominaisuutta, aktivoi lupa laitteesi Asetuksissa."
           }
         },
         "fr" : {
@@ -4162,7 +4162,7 @@
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "A %@ hozzáférést megtagadták. E szolgáltatás használatához kérjük, engedélyezd a jogosultságot a készülék Beállításaiban."
+            "value" : "A %@ hozzáférést megtagadták. E szolgáltatás használatához kérjük, engedélyezze a jogosultságot a készülék Beállításaiban."
           }
         },
         "id" : {
@@ -4186,7 +4186,7 @@
         "kk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%@-ға қол жеткізу рұқсат етілмеді. Бұл функцияны пайдалану үшін құрылғыңыздың Параметрлерінде рұқты қосыңыз."
+            "value" : "%@-ға қол жеткізу рұқсат етілмеді. Бұл функцияны пайдалану үшін құрылғыңыздың Параметрлерінде рұқсатты қосыңыз."
           }
         },
         "ko" : {
@@ -4228,25 +4228,25 @@
         "pt-PT" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "nas Definições do teu dispositivo"
+            "value" : "O acesso a %@ foi recusado. Para utilizar esta funcionalidade, ative a permissão nas Definições do dispositivo."
           }
         },
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Accesul la %@ a fost refuzat. Pentru a folosi această funcție, te rugăm să activezi permisiunea în Setările dispozitivului tău."
+            "value" : "Accesul la %@ a fost refuzat. Pentru a folosi această funcție, activați permisiunea în Setările dispozitivului."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Доступ к %@ был отклонён. Чтобы использовать эту функцию, пожалуйста, включите разрешение в настройках вашего устройства."
+            "value" : "Доступ к %@ был отклонён. Чтобы использовать эту функцию, включите разрешение в настройках Вашего устройства."
           }
         },
         "sk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "povol prosím oprávnenie v nastaveniach zariadenia."
+            "value" : "Prístup k %@ bol odmietnutý. Ak chcete túto funkciu používať, povoľte prosím oprávnenie v nastaveniach zariadenia."
           }
         },
         "sv" : {
@@ -4264,7 +4264,7 @@
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%@ erişim talebi reddedildi. Bu özelliği kullanmak için lütfen cihaz Ayarları'ndan izni etkinleştir."
+            "value" : "%@ erişim talebi reddedildi. Bu özelliği kullanmak için lütfen cihaz Ayarları'ndan izni etkinleştirin."
           }
         },
         "uk" : {
@@ -4322,7 +4322,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Oprávnění pro %@ zatím nebylo potvrzeno. Zkontroluj a povol přístup v nastavení svého zařízení."
+            "value" : "Oprávnění pro %@ zatím nebylo potvrzeno. Zkontrolujte a povolte přístup v nastavení svého zařízení."
           }
         },
         "da" : {
@@ -4340,7 +4340,7 @@
         "el" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Η άδεια για %@ δεν έχει επιβεβαιωθεί. Παρακαλώ ελέγξτε και δώστε πρόσβαση στις ρυθμίσεις της συσκευής σας."
+            "value" : "Η άδεια για %@ δεν έχει επιβεβαιωθεί. Ελέγξτε και δώστε πρόσβαση στις ρυθμίσεις της συσκευής σας."
           }
         },
         "en" : {
@@ -4412,7 +4412,7 @@
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "A %@ engedélye még nincs megerősítve. Kérjük, ellenőrizd, és adj hozzáférést a készülék Beállításaiban."
+            "value" : "A %@ engedélye még nincs megerősítve. Kérjük, ellenőrizze, és adjon hozzáférést a készülék Beállításaiban."
           }
         },
         "id" : {
@@ -4436,7 +4436,7 @@
         "kk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%@ үшін рұқсат расталмаған. Қосымша рұқсаттарды тексеріп, құрылғыңыздың Параметрлерінде беріңіз."
+            "value" : "%@ үшін рұқсат расталмаған. Рұқсатты тексеріп, құрылғыңыздың Параметрлерінде беріңіз."
           }
         },
         "ko" : {
@@ -4466,7 +4466,7 @@
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Zezwolenie na %@ nie zostało jeszcze potwierdzone. Proszę sprawdzić i przyznać dostęp w ustawieniach urządzenia."
+            "value" : "Zezwolenie na %@ nie zostało jeszcze potwierdzone. Sprawdź i przyznaj dostęp w ustawieniach urządzenia."
           }
         },
         "pt-BR" : {
@@ -4478,25 +4478,25 @@
         "pt-PT" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "nas Definições do teu dispositivo"
+            "value" : "A permissão para %@ não foi confirmada. Por favor, reveja e conceda o acesso nas Definições do dispositivo."
           }
         },
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Permisiunea pentru %@ nu a fost confirmată. Te rugăm să verifici și să acorzi acces în Setările dispozitivului tău."
+            "value" : "Permisiunea pentru %@ nu a fost confirmată. Verificați și acordați accesul în Setările dispozitivului."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Разрешение для %@ ещё не подтверждено. Пожалуйста, проверьте и предоставьте доступ в настройках вашего устройства."
+            "value" : "Разрешение для %@ ещё не подтверждено. Проверьте и предоставьте доступ в настройках Вашего устройства."
           }
         },
         "sk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Skontrolujte prosím a udeľte prístup v nastaveniach zariadenia."
+            "value" : "Povolenie pre %@ nebolo potvrdené. Skontrolujte prosím a udeľte prístup v nastaveniach zariadenia."
           }
         },
         "sv" : {
@@ -4514,7 +4514,7 @@
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%@ için izin onaylanmadı. Lütfen gözden geçirip cihaz Ayarları'ndan erişimi ver."
+            "value" : "%@ için izin onaylanmadı. Lütfen gözden geçirip cihaz Ayarları'ndan erişim verin."
           }
         },
         "uk" : {
@@ -4680,7 +4680,7 @@
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "システムの設定またはペアレンタルコントロールによる可能性があります。"
+            "value" : "%@へのアクセスは現在制限されています。システムの設定またはペアレンタルコントロールによる可能性があります。"
           }
         },
         "kk" : {
@@ -4728,7 +4728,7 @@
         "pt-PT" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "O acesso a %@ está atualmente restrito. Isto pode ser devido a configurações do sistema ou controles parentais."
+            "value" : "O acesso a %@ está atualmente restrito. Isto pode ser devido a configurações do sistema ou controlos parentais."
           }
         },
         "ro" : {
@@ -4822,7 +4822,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tento prvek již byl finalizován a nelze jej upravit. Pokud potřebujete provést změny, vytvoř prosím novou verzi."
+            "value" : "Tento prvek již byl finalizován a nelze jej upravit. Pokud potřebujete provést změny, vytvořte prosím novou verzi."
           }
         },
         "da" : {
@@ -4840,7 +4840,7 @@
         "el" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Αυτό το αντικείμενο έχει ήδη ολοκληρωθεί και δεν μπορεί να τροποποιηθεί. Παρακαλώ δημιουργήστε μια νέα έκδοση αν χρειάζονται αλλαγές."
+            "value" : "Αυτό το αντικείμενο έχει ήδη ολοκληρωθεί και δεν μπορεί να τροποποιηθεί. Δημιουργήστε μια νέα έκδοση αν χρειάζονται αλλαγές."
           }
         },
         "en" : {
@@ -4912,7 +4912,7 @@
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ez az elem már véglegesen lezárva lett, és nem módosítható. Kérlek, hozz létre egy új verziót, ha változtatásokra van szükséged."
+            "value" : "Ez az elem már véglegesen lezárva lett, és nem módosítható. Kérjük, hozzon létre egy új verziót, ha változtatásokra van szüksége."
           }
         },
         "id" : {
@@ -4936,7 +4936,7 @@
         "kk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Бұл элемент қазірдің өзінда соңғы мәртебеде және өзгертілмейді. Өзгерістер қажет болса, жаңа нұсқа жасаңыз."
+            "value" : "Бұл элемент қазірдің өзінде соңғы мәртебеде және өзгертілмейді. Өзгерістер қажет болса, жаңа нұсқа жасаңыз."
           }
         },
         "ko" : {
@@ -4984,19 +4984,19 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Acest element a fost deja finalizat și nu poate fi modificat. Te rugăm să creezi o nouă versiune dacă sunt necesare modificări."
+            "value" : "Acest element a fost deja finalizat și nu poate fi modificat. Creați o nouă versiune dacă sunt necesare modificări."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Этот элемент уже был завершён и не может быть изменён. Пожалуйста, создайте новую версию, если потребуется внести изменения."
+            "value" : "Этот элемент уже был завершён и не может быть изменён. Создайте новую версию, если потребуется внести изменения."
           }
         },
         "sk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tento položka bola už finalizovaná a nemôže byť upravená. "
+            "value" : "Táto položka už bola finalizovaná a nemôže byť upravená. Ak sú potrebné zmeny, vytvorte novú verziu."
           }
         },
         "sv" : {
@@ -5014,7 +5014,7 @@
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Bu öğe zaten tamamlandı ve değiştirilemez. Gerekirse yeni bir sürüm oluştur lütfen."
+            "value" : "Bu öğe zaten tamamlandı ve değiştirilemez. Gerekirse lütfen yeni bir sürüm oluşturun."
           }
         },
         "uk" : {
@@ -5072,7 +5072,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Aktuální stav brání této akci: %@. Zkontroluj, zda jsou splněny všechny požadavky, a zkus to znovu."
+            "value" : "Aktuální stav brání této akci: %@. Zkontrolujte, zda jsou splněny všechny požadavky, a zkuste to znovu."
           }
         },
         "da" : {
@@ -5090,7 +5090,7 @@
         "el" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Η τρέχουσα κατάσταση δεν επιτρέπει αυτή την ενέργεια: %@. Παρακαλώ βεβαιωθείτε ότι πληρούνται όλες οι απαιτήσεις και δοκιμάστε ξανά."
+            "value" : "Η τρέχουσα κατάσταση δεν επιτρέπει αυτή την ενέργεια: %@. Βεβαιωθείτε ότι πληρούνται όλες οι απαιτήσεις και δοκιμάστε ξανά."
           }
         },
         "en" : {
@@ -5162,7 +5162,7 @@
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "A jelenlegi állapot megakadályozza ezt a műveletet: %@. Kérjük, győződj meg róla, hogy minden követelmény teljesült, és próbáld újra."
+            "value" : "A jelenlegi állapot megakadályozza ezt a műveletet: %@. Kérjük, győződjön meg róla, hogy minden követelmény teljesült, és próbálja újra."
           }
         },
         "id" : {
@@ -5234,13 +5234,13 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Starea curentă împiedică această acțiune: %@. Te rugăm să te asiguri că toate cerințele sunt îndeplinite și încearcă din nou."
+            "value" : "Starea curentă împiedică această acțiune: %@. Asigurați-vă că toate cerințele sunt îndeplinite și încercați din nou."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Текущее состояние не позволяет выполнить это действие: %@. Пожалуйста, убедитесь, что выполнены все требования, и попробуйте снова."
+            "value" : "Текущее состояние не позволяет выполнить это действие: %@. Убедитесь, что выполнены все требования, и попробуйте снова."
           }
         },
         "sk" : {
@@ -5322,7 +5322,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nepodařilo se splnit požadovanou podmínku: %@. Dokonči prosím všechny předpoklady před pokračováním."
+            "value" : "Nepodařilo se splnit požadovanou podmínku: %@. Dokončete prosím všechny předpoklady před pokračováním."
           }
         },
         "da" : {
@@ -5340,7 +5340,7 @@
         "el" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Μια απαιτούμενη προϋπόθεση δεν πληρούται: %@. Παρακαλώ ολοκληρώστε όλα τα προαπαιτούμενα πριν προχωρήσετε."
+            "value" : "Μια απαιτούμενη προϋπόθεση δεν πληρούται: %@. Ολοκληρώστε όλα τα προαπαιτούμενα πριν προχωρήσετε."
           }
         },
         "en" : {
@@ -5370,7 +5370,7 @@
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "prerrequisitos"
+            "value" : "No se cumplió una condición requerida: %@. Completa todos los prerrequisitos antes de continuar."
           }
         },
         "fi" : {
@@ -5412,7 +5412,7 @@
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Egy szükséges feltétel nem teljesült: %@. Kérlek, teljesítsd az összes előfeltételt a folytatás előtt."
+            "value" : "Egy szükséges feltétel nem teljesült: %@. Kérjük, teljesítse az összes előfeltételt a folytatás előtt."
           }
         },
         "id" : {
@@ -5466,7 +5466,7 @@
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nie spełniono wymaganego warunku: %@. Proszę ukończyć wszystkie wymagania wstępne przed kontynuacją."
+            "value" : "Nie spełniono wymaganego warunku: %@. Spełnij wszystkie wymagania wstępne przed kontynuacją."
           }
         },
         "pt-BR" : {
@@ -5484,13 +5484,13 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "O condiție necesară nu a fost îndeplinită: %@. Te rog, completează toate cerințele preliminare înainte de a continua."
+            "value" : "O condiție necesară nu a fost îndeplinită: %@. Completați toate cerințele preliminare înainte de a continua."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Не выполнено одно из обязательных условий: %@. Пожалуйста, завершите все предварительные условия перед продолжением."
+            "value" : "Не выполнено одно из обязательных условий: %@. Завершите все предварительные условия перед продолжением."
           }
         },
         "sk" : {
@@ -5572,7 +5572,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Pole %1$@ nesmí být delší než %2$lld znaků. Prosím zkrať svůj vstup a zkus to znovu."
+            "value" : "Pole %1$@ nesmí být delší než %2$lld znaků. Prosím zkraťte svůj vstup a zkuste to znovu."
           }
         },
         "da" : {
@@ -5590,7 +5590,7 @@
         "el" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Το πεδίο %1$@ δεν μπορεί να έχει μήκος μεγαλύτερο από %2$lld χαρακτήρες. Παρακαλώ συντομεύστε την είσοδό σας και δοκιμάστε ξανά."
+            "value" : "Το πεδίο %1$@ δεν μπορεί να έχει μήκος μεγαλύτερο από %2$lld χαρακτήρες. Συντομεύστε την είσοδό σας και δοκιμάστε ξανά."
           }
         },
         "en" : {
@@ -5662,7 +5662,7 @@
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "A(z) %1$@ mező nem lehet hosszabb, mint %2$lld karakter. Kérlek, rövidítsd le a bevitelt, és próbáld újra."
+            "value" : "A(z) %1$@ mező nem lehet hosszabb, mint %2$lld karakter. Kérjük, rövidítse le a bevitelt, és próbálja újra."
           }
         },
         "id" : {
@@ -5680,7 +5680,7 @@
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "このフィールドは%2$lld文字を超えることはできません。入力を短くして再試行してください。"
+            "value" : "%1$@フィールドは%2$lld文字を超えることはできません。入力を短くして再試行してください。"
           }
         },
         "kk" : {
@@ -5698,7 +5698,7 @@
         "ms" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Bahan %1$@ tidak boleh melebihi %2$lld aksara. Sila pendekkan input anda dan cuba lagi."
+            "value" : "Medan %1$@ tidak boleh melebihi %2$lld aksara. Sila pendekkan input anda dan cuba lagi."
           }
         },
         "nb" : {
@@ -5716,7 +5716,7 @@
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Pole %1$@ nie może być dłuższe niż %2$lld znaków. Proszę skrócić swoje dane wejściowe i spróbować ponownie."
+            "value" : "Pole %1$@ nie może być dłuższe niż %2$lld znaków. Skróć dane wejściowe i spróbuj ponownie."
           }
         },
         "pt-BR" : {
@@ -5734,25 +5734,25 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Câmpul %1$@ nu poate fi mai lung de %2$lld caractere. Te rog, scurtează introducerea și încearcă din nou."
+            "value" : "Câmpul %1$@ nu poate fi mai lung de %2$lld caractere. Scurtați textul introdus și încercați din nou."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Поле %1$@ не может содержать более %2$lld символов. Пожалуйста, сократите ваш ввод и попробуйте снова."
+            "value" : "Поле %1$@ не может содержать более %2$lld символов. Сократите ввод и попробуйте снова."
           }
         },
         "sk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Prosím, skráťte svoj vstup a skúste to znovu."
+            "value" : "Pole %1$@ nemôže byť dlhšie ako %2$lld znakov. Prosím, skráťte svoj vstup a skúste to znovu."
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Vänligen förkorta din inmatning och försök igen."
+            "value" : "Fältet %1$@ får inte vara längre än %2$lld tecken. Vänligen förkorta din inmatning och försök igen."
           }
         },
         "th" : {
@@ -5794,7 +5794,7 @@
         "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "請縮短您的輸入，再試一次。"
+            "value" : "%1$@ 欄位不可超過 %2$lld 個字元。請縮短您的輸入，再試一次。"
           }
         }
       }
@@ -5810,7 +5810,7 @@
         "bg" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Въведеното значение за %@ не е в правилния формат. Моля, прегледайте изискванията и опитайте отново."
+            "value" : "Въведената стойност за %@ не е в правилния формат. Моля, прегледайте изискванията и опитайте отново."
           }
         },
         "ca" : {
@@ -5822,7 +5822,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Zadaná hodnota pro %@ není ve správném formátu. Zkontroluj prosím požadavky a zkus to znovu."
+            "value" : "Zadaná hodnota pro %@ není ve správném formátu. Zkontrolujte prosím požadavky a zkuste to znovu."
           }
         },
         "da" : {
@@ -5840,7 +5840,7 @@
         "el" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Η τιμή που εισάγατε για %@ δεν είναι στη σωστή μορφή. Παρακαλώ ελέγξτε τις απαιτήσεις και δοκιμάστε ξανά."
+            "value" : "Η τιμή που εισάγατε για %@ δεν είναι στη σωστή μορφή. Ελέγξτε τις απαιτήσεις και δοκιμάστε ξανά."
           }
         },
         "en" : {
@@ -5864,7 +5864,7 @@
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Por favor, revisa los requisitos y vuelve a intentarlo."
+            "value" : "El valor introducido para %@ no tiene el formato correcto. Por favor, revisa los requisitos y vuelve a intentarlo."
           }
         },
         "es-419" : {
@@ -5912,7 +5912,7 @@
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "A(z) %@ mezőbe beírt érték nincs a megfelelő formátumban. Kérlek, ellenőrizd a követelményeket, és próbáld újra."
+            "value" : "A(z) %@ mezőbe beírt érték nincs a megfelelő formátumban. Kérjük, ellenőrizze a követelményeket, és próbálja újra."
           }
         },
         "id" : {
@@ -5936,7 +5936,7 @@
         "kk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%@ үшін енгізілген мән дұрыс форматта емес. Талаптарды қайта қарастырыңыз және қайтадан барыңыз."
+            "value" : "%@ үшін енгізілген мән дұрыс форматта емес. Талаптарды қайта қарастырыңыз және қайтадан көріңіз."
           }
         },
         "ko" : {
@@ -5966,7 +5966,7 @@
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Wprowadzona wartość dla %@ nie jest w poprawnym formacie. Proszę sprawdzić wymagania i spróbować ponownie."
+            "value" : "Wprowadzona wartość dla %@ nie ma poprawnego formatu. Sprawdź wymagania i spróbuj ponownie."
           }
         },
         "pt-BR" : {
@@ -5984,13 +5984,13 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Valoarea introdusă pentru %@ nu este în formatul corect. Te rog, revizuiește cerințele și încearcă din nou."
+            "value" : "Valoarea introdusă pentru %@ nu este în formatul corect. Revizuiți cerințele și încercați din nou."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Введённое значение для %@ не соответствует правильному формату. Пожалуйста, проверьте требования и попробуйте снова."
+            "value" : "Введённое значение для %@ не соответствует правильному формату. Проверьте требования и попробуйте снова."
           }
         },
         "sk" : {
@@ -6072,7 +6072,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Prosím poskytni hodnotu pro %@. Tato informace je požadována pro pokračování."
+            "value" : "Prosím poskytněte hodnotu pro %@. Tato informace je požadována pro pokračování."
           }
         },
         "da" : {
@@ -6090,7 +6090,7 @@
         "el" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Παρακαλώ παρέχετε μια τιμή για %@. Αυτή η πληροφορία είναι απαραίτητη για να προχωρήσετε."
+            "value" : "Δώστε μια τιμή για %@. Αυτή η πληροφορία είναι απαραίτητη για να προχωρήσετε."
           }
         },
         "en" : {
@@ -6114,7 +6114,7 @@
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Es obligatorio proporcionarla para continuar."
+            "value" : "Por favor, proporciona un valor para %@. Esta información es obligatoria para continuar."
           }
         },
         "es-419" : {
@@ -6162,7 +6162,7 @@
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Kérlek, adj meg egy értéket a(z) %@ mezőhöz. Ez az információ szükséges a továbblépéshez."
+            "value" : "Kérjük, adjon meg egy értéket a(z) %@ mezőhöz. Ez az információ szükséges a továbblépéshez."
           }
         },
         "id" : {
@@ -6216,7 +6216,7 @@
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Proszę podać wartość dla %@. Te informacje są wymagane, aby kontynuować."
+            "value" : "Podaj wartość dla %@. Te informacje są wymagane, aby kontynuować."
           }
         },
         "pt-BR" : {
@@ -6234,13 +6234,13 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Te rog să furnizezi o valoare pentru %@. Această informație este necesară pentru a continua."
+            "value" : "Furnizați o valoare pentru %@. Această informație este necesară pentru a continua."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Пожалуйста, укажите значение для %@. Эта информация нужна для продолжения."
+            "value" : "Укажите значение для %@. Эта информация нужна для продолжения."
           }
         },
         "sk" : {
@@ -6313,7 +6313,7 @@
         "bg" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Възникна грешка в файловата система: %@"
+            "value" : "Възникна грешка във файловата система: %@"
           }
         },
         "ca" : {
@@ -6325,7 +6325,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Došlo k chybě souborového systému: %@."
+            "value" : "Došlo k chybě souborového systému: %@"
           }
         },
         "da" : {
@@ -6481,7 +6481,7 @@
         "pt-PT" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ocorreu um erro no sistema de arquivos: %@"
+            "value" : "Ocorreu um erro no sistema de ficheiros: %@"
           }
         },
         "ro" : {
@@ -6493,7 +6493,7 @@
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Произошла ошибка файловой системы: %@."
+            "value" : "Произошла ошибка файловой системы: %@"
           }
         },
         "sk" : {
@@ -6915,7 +6915,7 @@
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nincs jogosultságod a fájl olvasásához."
+            "value" : "Nincs jogosultsága a fájl olvasásához."
           }
         },
         "id" : {
@@ -6981,19 +6981,19 @@
         "pt-PT" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Não tens permissão para ler este ficheiro."
+            "value" : "Não tem permissão para ler este ficheiro."
           }
         },
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nu ai permisiunea de a citi acest fișier."
+            "value" : "Nu aveți permisiunea de a citi acest fișier."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "У вас нет разрешения на чтение этого файла."
+            "value" : "У Вас нет разрешения на чтение этого файла."
           }
         },
         "sk" : {
@@ -7689,7 +7689,7 @@
         "kk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Деректер қорына арналған үлгі нұсқасымен үйлесімсіз."
+            "value" : "Деректер қоры ағымдағы үлгі нұсқасымен үйлесімсіз."
           }
         },
         "ko" : {
@@ -7843,7 +7843,7 @@
         "el" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Δεν ήταν δυνατή η άνοιξη του αποθηκευτικού χώρου. Παρακαλώ ελέγξτε την αποθήκευση ή τις άδειες σας."
+            "value" : "Δεν ήταν δυνατό το άνοιγμα του αποθηκευτικού χώρου. Ελέγξτε τον αποθηκευτικό χώρο ή τις άδειές σας."
           }
         },
         "en" : {
@@ -7915,7 +7915,7 @@
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nem lehet megnyitni a tartós tárolót. Kérlek, ellenőrizd a tárolást vagy a jogosultságokat."
+            "value" : "Nem lehet megnyitni a tartós tárolót. Kérjük, ellenőrizze a tárolást vagy a jogosultságokat."
           }
         },
         "id" : {
@@ -7969,7 +7969,7 @@
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nie można otworzyć trwałego magazynu. Proszę sprawdzić pamięć lub uprawnienia."
+            "value" : "Nie można otworzyć trwałego magazynu. Sprawdź pamięć lub uprawnienia."
           }
         },
         "pt-BR" : {
@@ -7981,19 +7981,19 @@
         "pt-PT" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Não foi possível abrir a loja persistente. Verifica o teu armazenamento ou permissões."
+            "value" : "Não foi possível abrir a loja persistente. Verifique o armazenamento ou as permissões."
           }
         },
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nu se poate deschide magazinul persistent. Te rugăm să verifici stocarea sau permisiunile."
+            "value" : "Nu se poate deschide magazinul persistent. Verificați stocarea sau permisiunile."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Не удалось открыть постоянное хранилище. Пожалуйста, проверьте ваше хранилище или разрешения."
+            "value" : "Не удалось открыть постоянное хранилище. Проверьте хранилище или разрешения."
           }
         },
         "sk" : {
@@ -8093,7 +8093,7 @@
         "el" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Αποτυχία στην αποθήκευση των δεδομένων. Παρακαλώ δοκιμάστε ξανά."
+            "value" : "Αποτυχία στην αποθήκευση των δεδομένων. Δοκιμάστε ξανά."
           }
         },
         "en" : {
@@ -8165,7 +8165,7 @@
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "A mentés nem sikerült. Kérlek, próbáld újra."
+            "value" : "A mentés nem sikerült. Kérjük, próbálja újra."
           }
         },
         "id" : {
@@ -8219,7 +8219,7 @@
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nie udało się zapisać danych. Proszę spróbować ponownie."
+            "value" : "Nie udało się zapisać danych. Spróbuj ponownie."
           }
         },
         "pt-BR" : {
@@ -8231,19 +8231,19 @@
         "pt-PT" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Falha ao guardar os dados. Por favor, tenta novamente."
+            "value" : "Falha ao guardar os dados. Por favor, tente novamente."
           }
         },
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Salvarea datelor a eșuat. Te rugăm să încerci din nou."
+            "value" : "Salvarea datelor a eșuat. Încercați din nou."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Не удалось сохранить данные. Пожалуйста, попробуйте снова."
+            "value" : "Не удалось сохранить данные. Попробуйте снова."
           }
         },
         "sk" : {
@@ -8343,7 +8343,7 @@
         "el" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Λείπει μια υποχρεωτική ιδιότητα. Παρακαλώ συμπληρώστε όλα τα απαιτούμενα πεδία."
+            "value" : "Λείπει μια υποχρεωτική ιδιότητα. Συμπληρώστε όλα τα απαιτούμενα πεδία."
           }
         },
         "en" : {
@@ -8415,7 +8415,7 @@
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Hiányzik egy kötelező mező. Kérlek, töltsd ki az összes kötelező mezőt."
+            "value" : "Hiányzik egy kötelező mező. Kérjük, töltse ki az összes kötelező mezőt."
           }
         },
         "id" : {
@@ -8469,7 +8469,7 @@
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Brakuje wymaganego atrybutu. Proszę wypełnić wszystkie wymagane pola."
+            "value" : "Brakuje wymaganego atrybutu. Wypełnij wszystkie wymagane pola."
           }
         },
         "pt-BR" : {
@@ -8481,19 +8481,19 @@
         "pt-PT" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Falta uma propriedade obrigatória. Por favor, preenche todos os campos obrigatórios."
+            "value" : "Falta uma propriedade obrigatória. Por favor, preencha todos os campos obrigatórios."
           }
         },
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "O proprietate obligatorie lipsește. Te rugăm să completezi toate câmpurile necesare."
+            "value" : "O proprietate obligatorie lipsește. Completați toate câmpurile necesare."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Обязательное поле отсутствует. Пожалуйста, заполните все обязательные поля."
+            "value" : "Обязательное поле отсутствует. Заполните все обязательные поля."
           }
         },
         "sk" : {
@@ -8813,7 +8813,7 @@
         "bg" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Свързването липсва задължителни свързани обекти."
+            "value" : "На връзката липсват задължителни свързани обекти."
           }
         },
         "ca" : {
@@ -8843,7 +8843,7 @@
         "el" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Μια σχέση λείπει απαιτούμενα σχετικά αντικείμενα."
+            "value" : "Σε μια σχέση λείπουν απαιτούμενα σχετικά αντικείμενα."
           }
         },
         "en" : {
@@ -8987,7 +8987,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "O relație lipsește obiecte asociate necesare."
+            "value" : "Unei relații îi lipsesc obiectele asociate necesare."
           }
         },
         "ru" : {
@@ -9017,7 +9017,7 @@
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Bir ilişki gerekli ilişkili nesneleri eksik."
+            "value" : "Bir ilişkide gerekli ilişkili nesneler eksik."
           }
         },
         "uk" : {
@@ -9593,7 +9593,7 @@
         "el" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Η φόρτωση του χάρτη περιορίζεται. Παρακαλώ περίμενε λίγο και προσπάθησε ξανά."
+            "value" : "Η φόρτωση του χάρτη περιορίζεται. Περιμένετε λίγο και προσπαθήστε ξανά."
           }
         },
         "en" : {
@@ -9653,7 +9653,7 @@
         "hi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "नक्शा लोड हो रहा है। कृपया एक पल रुकें और फिर से प्रयास करें।"
+            "value" : "नक्शा लोड करने की गति सीमित की जा रही है। कृपया एक पल रुकें और फिर से प्रयास करें।"
           }
         },
         "hr" : {
@@ -9665,7 +9665,7 @@
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "A térkép betöltése le van korlátozva. Kérlek, várj egy pillanatot, majd próbáld újra."
+            "value" : "A térkép betöltése le van korlátozva. Kérjük, várjon egy pillanatot, majd próbálja újra."
           }
         },
         "id" : {
@@ -9701,7 +9701,7 @@
         "ms" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Memuat peta sedang dibatasi. Sila tunggu sebentar dan cuba lagi."
+            "value" : "Pemuatan peta sedang dihadkan. Sila tunggu sebentar dan cuba lagi."
           }
         },
         "nb" : {
@@ -9719,7 +9719,7 @@
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Załadowanie mapy jest ograniczone. Proszę czekać chwilę i spróbować ponownie."
+            "value" : "Załadowanie mapy jest ograniczone. Poczekaj chwilę i spróbuj ponownie."
           }
         },
         "pt-BR" : {
@@ -9737,13 +9737,13 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Încărcarea hărții este limitată. Te rugăm să aștepți puțin și să încerci din nou."
+            "value" : "Încărcarea hărții este limitată. Așteptați puțin și încercați din nou."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Загрузка карты ограничена. Пожалуйста, подождите немного и попробуйте еще раз."
+            "value" : "Загрузка карты ограничена. Подождите немного и попробуйте еще раз."
           }
         },
         "sk" : {
@@ -9773,7 +9773,7 @@
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Завантаження карти обмежено. Будь ласка, почекайте кілька хвилин і спробуйте ще раз."
+            "value" : "Завантаження карти обмежено. Будь ласка, зачекайте хвилину і спробуйте ще раз."
           }
         },
         "vi" : {
@@ -9843,7 +9843,7 @@
         "el" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ο ζητούμενος σημειογράφος δεν βρέθηκε. Παρακαλώ έλεγξε τις λεπτομέρειες του τοποθεσίας."
+            "value" : "Η ζητούμενη θέση δεν βρέθηκε. Ελέγξτε τα στοιχεία της τοποθεσίας."
           }
         },
         "en" : {
@@ -9915,7 +9915,7 @@
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "A kért helymeghatározó nem található. Kérlek, ellenőrizd a helyadatokat."
+            "value" : "A kért helymeghatározó nem található. Kérjük, ellenőrizze a helyadatokat."
           }
         },
         "id" : {
@@ -9939,7 +9939,7 @@
         "kk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Сұралған орны анықталмады. Орналасқан орынның мәліметтерін тексеріңіз."
+            "value" : "Сұралған орын табылмады. Орналасқан орынның мәліметтерін тексеріңіз."
           }
         },
         "ko" : {
@@ -9951,7 +9951,7 @@
         "ms" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tempat yang diminta tidak dapat ditemukan. Sila semak butiran lokasi."
+            "value" : "Tempat yang diminta tidak dapat dijumpai. Sila semak butiran lokasi."
           }
         },
         "nb" : {
@@ -9969,7 +9969,7 @@
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nie znaleziono żądanego punktu orientacyjnego. Proszę sprawdzić szczegóły lokalizacji."
+            "value" : "Nie znaleziono żądanego punktu orientacyjnego. Sprawdź szczegóły lokalizacji."
           }
         },
         "pt-BR" : {
@@ -9987,13 +9987,13 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Marcajul solicitat nu a fost găsit. Te rugăm să verifici detaliile locației."
+            "value" : "Marcajul solicitat nu a fost găsit. Verificați detaliile locației."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Запрашиваемый идентификатор местоположения не найден. Пожалуйста, проверьте детали местоположения."
+            "value" : "Запрашиваемое место не найдено. Проверьте сведения о местоположении."
           }
         },
         "sk" : {
@@ -10023,7 +10023,7 @@
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Запитуваний позначка не знайдена. Будь ласка, перевірте дані про місцезнаходження."
+            "value" : "Запитувану позначку не знайдено. Будь ласка, перевірте дані про місцезнаходження."
           }
         },
         "vi" : {
@@ -10093,7 +10093,7 @@
         "el" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ο διακομιστής του MapKit επιστρέφει σφάλμα. Παρακαλώ προσπάθησε ξανά αργότερα."
+            "value" : "Ο διακομιστής του MapKit επέστρεψε σφάλμα. Δοκιμάστε ξανά αργότερα."
           }
         },
         "en" : {
@@ -10165,7 +10165,7 @@
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "A MapKit szerver hibaüzenetet küldött. Kérlek, próbáld újra később."
+            "value" : "A MapKit szerver hibaüzenetet küldött. Kérjük, próbálja újra később."
           }
         },
         "id" : {
@@ -10219,7 +10219,7 @@
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Serwer MapKit zwrócił błąd. Proszę spróbować później."
+            "value" : "Serwer MapKit zwrócił błąd. Spróbuj ponownie później."
           }
         },
         "pt-BR" : {
@@ -10237,13 +10237,13 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Serverul MapKit a returnat o eroare. Te rugăm să încerci din nou mai târziu."
+            "value" : "Serverul MapKit a returnat o eroare. Încercați din nou mai târziu."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Сервер MapKit вернул ошибку. Пожалуйста, попробуйте снова позже."
+            "value" : "Сервер MapKit вернул ошибку. Попробуйте снова позже."
           }
         },
         "sk" : {
@@ -10843,7 +10843,7 @@
         "el" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Απορρίφθηκε η άδεια. Παρακαλώ έλεγξε τα δικαιώματα του αρχείου."
+            "value" : "Απορρίφθηκε η άδεια. Ελέγξτε τα δικαιώματα του αρχείου."
           }
         },
         "en" : {
@@ -10915,7 +10915,7 @@
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Hozzáférés megtagadva. Kérlek, ellenőrizd a fájlhozzáféréseket."
+            "value" : "Hozzáférés megtagadva. Kérjük, ellenőrizze a fájlhozzáféréseket."
           }
         },
         "id" : {
@@ -10969,7 +10969,7 @@
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Odmowa dostępu. Proszę sprawdzić uprawnienia pliku."
+            "value" : "Odmowa dostępu. Sprawdź uprawnienia pliku."
           }
         },
         "pt-BR" : {
@@ -10987,13 +10987,13 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Permisiune refuzată. Te rugăm să verifici permisiunile fișierului."
+            "value" : "Permisiune refuzată. Verificați permisiunile fișierului."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Доступ запрещен. Пожалуйста, проверьте права доступа к файлам."
+            "value" : "Доступ запрещен. Проверьте права доступа к файлам."
           }
         },
         "sk" : {
@@ -11593,7 +11593,7 @@
         "el" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Δεν ήταν δυνατή η εύρεση του διακομιστή. Παρακαλώ έλεγξε το URL ή το δίκτυό σου."
+            "value" : "Δεν ήταν δυνατή η εύρεση του διακομιστή. Ελέγξτε το URL ή το δίκτυό σας."
           }
         },
         "en" : {
@@ -11665,7 +11665,7 @@
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nem található a szerver. Kérlek, ellenőrizd az URL-t vagy a hálózatodat."
+            "value" : "Nem található a szerver. Kérjük, ellenőrizze az URL-t vagy a hálózatot."
           }
         },
         "id" : {
@@ -11719,7 +11719,7 @@
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nie można znaleźć serwera. Proszę sprawdzić adres URL lub swoje połączenie sieciowe."
+            "value" : "Nie można znaleźć serwera. Sprawdź adres URL lub połączenie sieciowe."
           }
         },
         "pt-BR" : {
@@ -11737,13 +11737,13 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Imposibil de găsit serverul. Vă rugăm să verificați URL-ul sau rețeaua dvs."
+            "value" : "Imposibil de găsit serverul. Verificați URL-ul sau rețeaua."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Не удалось найти сервер. Пожалуйста, проверьте URL или ваше подключение к сети."
+            "value" : "Не удалось найти сервер. Проверьте URL или подключение к сети."
           }
         },
         "sk" : {
@@ -12093,7 +12093,7 @@
         "el" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Η σύνδεση δικτύου χάθηκε. Παρακαλώ προσπάθησε ξανά."
+            "value" : "Η σύνδεση δικτύου χάθηκε. Δοκιμάστε ξανά."
           }
         },
         "en" : {
@@ -12165,7 +12165,7 @@
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "A hálózati kapcsolat megszakadt. Kérlek, próbáld újra."
+            "value" : "A hálózati kapcsolat megszakadt. Kérjük, próbálja újra."
           }
         },
         "id" : {
@@ -12219,7 +12219,7 @@
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Połączenie sieciowe zostało utracone. Proszę spróbować ponownie."
+            "value" : "Połączenie sieciowe zostało utracone. Spróbuj ponownie."
           }
         },
         "pt-BR" : {
@@ -12231,19 +12231,19 @@
         "pt-PT" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "A conexão de rede foi perdida. Por favor, tente novamente."
+            "value" : "A ligação de rede foi perdida. Por favor, tente novamente."
           }
         },
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Conexiunea de rețea a fost pierdută. Vă rugăm să încercați din nou."
+            "value" : "Conexiunea de rețea a fost pierdută. Încercați din nou."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Сетевое соединение было потеряно. Пожалуйста, попробуйте снова."
+            "value" : "Сетевое соединение было потеряно. Попробуйте снова."
           }
         },
         "sk" : {
@@ -12343,7 +12343,7 @@
         "el" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Δεν είσαι συνδεδεμένος στο Διαδίκτυο. Παρακαλώ έλεγξε τη σύνδεσή σου."
+            "value" : "Δεν είστε συνδεδεμένοι στο Διαδίκτυο. Ελέγξτε τη σύνδεσή σας."
           }
         },
         "en" : {
@@ -12385,7 +12385,7 @@
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Vous n'êtes pas connecté à Internet. Veuillez vérifier votre connexion."
+            "value" : "Votre appareil n'est pas connecté à Internet. Veuillez vérifier votre connexion."
           }
         },
         "fr-CA" : {
@@ -12415,13 +12415,13 @@
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nincs internetkapcsolat. Kérlek, ellenőrizd a kapcsolatodat."
+            "value" : "Nincs internetkapcsolat. Kérjük, ellenőrizze a kapcsolatot."
           }
         },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Kamu tidak terhubung ke Internet. Silakan periksa koneksimu."
+            "value" : "Anda tidak terhubung ke Internet. Silakan periksa koneksi Anda."
           }
         },
         "it" : {
@@ -12469,7 +12469,7 @@
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nie jesteś połączony z Internetem. Sprawdź swoje połączenie."
+            "value" : "Brak połączenia z Internetem. Sprawdź połączenie."
           }
         },
         "pt-BR" : {
@@ -12481,25 +12481,25 @@
         "pt-PT" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Não estás conectado à Internet. Por favor, verifica a tua ligação."
+            "value" : "Não está ligado à Internet. Por favor, verifique a ligação."
           }
         },
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nu ești conectat la Internet. Verifică-ți conexiunea."
+            "value" : "Nu sunteți conectat la internet. Verificați conexiunea."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Вы не подключены к Интернету. Пожалуйста, проверьте ваше соединение."
+            "value" : "Вы не подключены к Интернету. Проверьте соединение."
           }
         },
         "sk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nie ste pripojený na Internet. Skontrolujte prosím svoje pripojenie."
+            "value" : "Nemáte pripojenie k internetu. Skontrolujte prosím svoje pripojenie."
           }
         },
         "sv" : {
@@ -12517,7 +12517,7 @@
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "İnternete bağlı değilsin. Lütfen bağlantını kontrol et."
+            "value" : "İnternete bağlı değilsiniz. Lütfen bağlantınızı kontrol edin."
           }
         },
         "uk" : {
@@ -12575,7 +12575,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Žádost vypršela. Zkontrolujte to prosím znovu později."
+            "value" : "Žádost vypršela. Zkuste to prosím později znovu."
           }
         },
         "da" : {
@@ -12593,7 +12593,7 @@
         "el" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Η αίτηση απέτυχε λόγω χρονικού ορίου. Παρακαλώ δοκιμάστε ξανά αργότερα."
+            "value" : "Η αίτηση απέτυχε λόγω χρονικού ορίου. Δοκιμάστε ξανά αργότερα."
           }
         },
         "en" : {
@@ -12665,7 +12665,7 @@
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "A kérés időtúllépett. Kérlek, próbáld meg később."
+            "value" : "A kérés időtúllépett. Kérjük, próbálja meg később."
           }
         },
         "id" : {
@@ -12731,19 +12731,19 @@
         "pt-PT" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "A requisição excedeu o tempo limite. Tenta novamente mais tarde."
+            "value" : "O pedido excedeu o tempo limite. Tente novamente mais tarde."
           }
         },
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Cererea a expirat. Te rugăm să încerci din nou mai târziu."
+            "value" : "Cererea a expirat. Încercați din nou mai târziu."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Запрос завершился по тайм-ауту. Пожалуйста, попробуйте позже."
+            "value" : "Запрос завершился по тайм-ауту. Попробуйте позже."
           }
         },
         "sk" : {
@@ -12816,7 +12816,7 @@
         "bg" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Затвори"
+            "value" : "Затворете"
           }
         },
         "ca" : {
@@ -12828,7 +12828,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Zakládání"
+            "value" : "Zavřít"
           }
         },
         "da" : {
@@ -12894,7 +12894,7 @@
         "fr-CA" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Disposer"
+            "value" : "Fermer"
           }
         },
         "he" : {
@@ -13097,7 +13097,7 @@
         "el" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Η συσκευή σας δεν είναι ρυθμισμένη για να αποστέλλει email. Παρακαλώ ρυθμίστε την εφαρμογή Mail ή χρησιμοποιήστε άλλη μέθοδο για να επικοινωνήσετε με την υποστήριξη στο: %@"
+            "value" : "Η συσκευή σας δεν είναι ρυθμισμένη για να αποστέλλει email. Ρυθμίστε την εφαρμογή Mail ή χρησιμοποιήστε άλλη μέθοδο για να επικοινωνήσετε με την υποστήριξη στο: %@"
           }
         },
         "en" : {
@@ -13145,7 +13145,7 @@
         "fr-CA" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Votre appareil n'est pas configuré pour envoyer des courriels. Veuillez configurer l'application Mail ou utiliser une autre méthode pour contacter le support à : %@."
+            "value" : "Votre appareil n'est pas configuré pour envoyer des courriels. Veuillez configurer l'application Mail ou utiliser une autre méthode pour contacter le support à : %@"
           }
         },
         "he" : {
@@ -13169,13 +13169,13 @@
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "A készüléked nincs beállítva e-mailek küldésére. Kérlek, állítsd be a Mail alkalmazást, vagy használj más módszert az ügyfélszolgálat elérhetőségéhez: %@"
+            "value" : "A készüléke nincs beállítva e-mailek küldésére. Kérjük, állítsa be a Mail alkalmazást, vagy használjon más módszert az ügyfélszolgálat eléréséhez: %@"
           }
         },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Perangkat Anda tidak dikonfigurasi untuk mengirim email. Silakan atur aplikasi Mail atau gunakan metode lain untuk menghubungi dukungan di: %@."
+            "value" : "Perangkat Anda tidak dikonfigurasi untuk mengirim email. Silakan atur aplikasi Mail atau gunakan metode lain untuk menghubungi dukungan di: %@"
           }
         },
         "it" : {
@@ -13223,7 +13223,7 @@
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Twoje urządzenie nie jest skonfigurowane do wysyłania e-maili. Ustaw aplikację Mail lub skorzystaj z innej metody, aby skontaktować się z pomocą pod adresem: %@"
+            "value" : "Twoje urządzenie nie jest skonfigurowane do wysyłania e-maili. Skonfiguruj aplikację Mail lub skorzystaj z innej metody, aby skontaktować się z pomocą pod adresem: %@"
           }
         },
         "pt-BR" : {
@@ -13241,19 +13241,19 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Dispozitivul tău nu este configurat pentru a trimite e-mailuri. Te rugăm să configurezi aplicația Mail sau să folosești o altă metodă pentru a contacta suportul la: %@"
+            "value" : "Dispozitivul nu este configurat pentru a trimite e-mailuri. Configurați aplicația Mail sau folosiți o altă metodă pentru a contacta suportul la: %@"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "На твоём устройстве не настроена отправка писем. Пожалуйста, настрой приложение Mail или используй другой способ, чтобы связаться со службой поддержки по адресу: %@"
+            "value" : "На Вашем устройстве не настроена отправка писем. Настройте приложение Mail или используйте другой способ, чтобы связаться со службой поддержки по адресу: %@"
           }
         },
         "sk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tvoje zariadenie nie je nastavené na posielanie e-mailov. Prosím, nastav aplikáciu Mail alebo použij iný spôsob, ako kontaktovať podporu na: %@"
+            "value" : "Vaše zariadenie nie je nastavené na posielanie e-mailov. Prosím, nastavte aplikáciu Mail alebo použite iný spôsob, ako kontaktovať podporu na: %@"
           }
         },
         "sv" : {
@@ -14337,7 +14337,7 @@
         "hi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "फाइल बंद है और इसे संशोधित नहीं किया जा सकता।"
+            "value" : "फाइल लॉक है और इसे संशोधित नहीं किया जा सकता।"
           }
         },
         "hr" : {
@@ -14593,7 +14593,7 @@
         "hr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Zadani datoteku ili direktorij nije moguće pronaći."
+            "value" : "Zadanu datoteku ili direktorij nije moguće pronaći."
           }
         },
         "hu" : {
@@ -15277,7 +15277,7 @@
         "el" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Δεν έχεις άδεια να διαβάσεις αυτό το αρχείο ή φάκελο."
+            "value" : "Δεν έχετε άδεια να διαβάσετε αυτό το αρχείο ή φάκελο."
           }
         },
         "en" : {
@@ -15349,13 +15349,13 @@
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nincs engedélyed ennek a fájlnak vagy mappának az olvasására."
+            "value" : "Nincs engedélye ennek a fájlnak vagy mappának az olvasására."
           }
         },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Kamu tidak memiliki izin untuk membaca file atau direktori ini."
+            "value" : "Anda tidak memiliki izin untuk membaca file atau direktori ini."
           }
         },
         "it" : {
@@ -15415,19 +15415,19 @@
         "pt-PT" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Não tens permissão para ler este ficheiro ou diretório."
+            "value" : "Não tem permissão para ler este ficheiro ou diretório."
           }
         },
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nu ai permisiunea de a citi acest fișier sau director."
+            "value" : "Nu aveți permisiunea de a citi acest fișier sau director."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "У вас нет разрешения на чтение этого файла или директории."
+            "value" : "У Вас нет разрешения на чтение этого файла или директории."
           }
         },
         "sk" : {
@@ -15527,7 +15527,7 @@
         "el" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Δεν έχεις άδεια να γράψεις σε αυτό το αρχείο ή φάκελο."
+            "value" : "Δεν έχετε άδεια να γράψετε σε αυτό το αρχείο ή φάκελο."
           }
         },
         "en" : {
@@ -15599,13 +15599,13 @@
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nincs engedélyed ennek a fájlnak vagy mappának az írására."
+            "value" : "Nincs engedélye ennek a fájlnak vagy mappának az írására."
           }
         },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Kamu tidak memiliki izin untuk menulis ke file atau direktori ini."
+            "value" : "Anda tidak memiliki izin untuk menulis ke file atau direktori ini."
           }
         },
         "it" : {
@@ -15665,19 +15665,19 @@
         "pt-PT" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Não tens permissão para escrever neste ficheiro ou diretório."
+            "value" : "Não tem permissão para escrever neste ficheiro ou diretório."
           }
         },
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nu ai permisiunea de a scrie în acest fișier sau director."
+            "value" : "Nu aveți permisiunea de a scrie în acest fișier sau director."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "У вас нет разрешения на запись в этот файл или директорию."
+            "value" : "У Вас нет разрешения на запись в этот файл или директорию."
           }
         },
         "sk" : {
@@ -15837,7 +15837,7 @@
         "hi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "संشोधन पूरा करने के लिए पर्याप्त डिस्क स्पेस नहीं है।"
+            "value" : "ऑपरेशन पूरा करने के लिए पर्याप्त डिस्क स्पेस नहीं है।"
           }
         },
         "hr" : {
@@ -15921,7 +15921,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nu ai suficient spațiu pe disc pentru a completa operația."
+            "value" : "Nu există suficient spațiu pe disc pentru a finaliza operația."
           }
         },
         "ru" : {
@@ -16165,7 +16165,7 @@
         "pt-PT" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ocorreram erros desconhecidos ao ler o ficheiro."
+            "value" : "Ocorreu um erro desconhecido ao ler o ficheiro."
           }
         },
         "ro" : {
@@ -16343,7 +16343,7 @@
         "hr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Kod datoteke jezikovno kodiranje nije podržano."
+            "value" : "Kodiranje znakova datoteke nije podržano."
           }
         },
         "hu" : {
@@ -16509,7 +16509,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Čtecí zařízení je pouze pro čtení a nelze jej upravit."
+            "value" : "Úložný svazek je pouze pro čtení a nelze jej upravit."
           }
         },
         "da" : {
@@ -16665,7 +16665,7 @@
         "pt-PT" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "O volume de armazenamento é somente leitura e não pode ser modificado."
+            "value" : "O volume de armazenamento é apenas de leitura e não pode ser modificado."
           }
         },
         "ro" : {
@@ -17027,7 +17027,7 @@
         "el" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Το αίτημα ήταν κακοδιατυπωμένο (400). Παρακαλώ ελέγξτε το και δοκιμάστε ξανά."
+            "value" : "Το αίτημα ήταν κακοδιατυπωμένο (400). Ελέγξτε το και δοκιμάστε ξανά."
           }
         },
         "en" : {
@@ -17099,7 +17099,7 @@
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "A kérés hibás volt (400). Kérlek, ellenőrizd és próbáld újra."
+            "value" : "A kérés hibás volt (400). Kérjük, ellenőrizze, és próbálja újra."
           }
         },
         "id" : {
@@ -17165,19 +17165,19 @@
         "pt-PT" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "A requisição estava malformada (400). Por favor, revise e tente novamente."
+            "value" : "O pedido estava malformado (400). Por favor, reveja e tente novamente."
           }
         },
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Cererea a fost formatată greșit (400). Te rugăm să revizuiești și să încerci din nou."
+            "value" : "Cererea a fost formatată greșit (400). Revizuiți cererea și încercați din nou."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Запрос был сформирован неверно (400). Пожалуйста, проверьте и попробуйте снова."
+            "value" : "Запрос был сформирован неверно (400). Проверьте и попробуйте снова."
           }
         },
         "sk" : {
@@ -17349,7 +17349,7 @@
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "A URL hibás. Kérlek, ellenőrizd és próbáld újra, vagy jelentsd a hibát."
+            "value" : "A URL hibás. Kérjük, ellenőrizze, és próbálja újra, vagy jelentse a hibát."
           }
         },
         "id" : {
@@ -17373,7 +17373,7 @@
         "kk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "URL дұрыс емес. Оны тексеріп, қайтадан байқап көріңіз немесе ақау туралы хабарласыңыз."
+            "value" : "URL дұрыс емес. Оны тексеріп, қайтадан байқап көріңіз немесе ақау туралы хабарлаңыз."
           }
         },
         "ko" : {
@@ -17415,19 +17415,19 @@
         "pt-PT" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "A URL está malformada. Por favor, verifique-a e tente novamente ou reporte um erro."
+            "value" : "A URL está malformada. Por favor, verifique-a e tente novamente ou comunique um erro."
           }
         },
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "URL-ul este formatat greșit. Te rugăm să îl verifici și să încerci din nou sau să raportezi o eroare."
+            "value" : "URL-ul este formatat greșit. Verificați-l și încercați din nou sau raportați o eroare."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "URL неверен. Пожалуйста, проверьте его и попробуйте снова или сообщите об ошибке."
+            "value" : "URL неверен. Проверьте его и попробуйте снова или сообщите об ошибке."
           }
         },
         "sk" : {
@@ -17527,7 +17527,7 @@
         "el" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Το αίτημα ακυρώθηκε. Παρακαλώ δοκιμάστε ξανά αν αυτό δεν ήταν η πρόθεσή σας."
+            "value" : "Το αίτημα ακυρώθηκε. Δοκιμάστε ξανά αν αυτό δεν ήταν η πρόθεσή σας."
           }
         },
         "en" : {
@@ -17599,7 +17599,7 @@
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "A kérés törölve lett. Kérlek, próbáld újra, ha ez nem volt szándékos."
+            "value" : "A kérés törölve lett. Kérjük, próbálja újra, ha ez nem volt szándékos."
           }
         },
         "id" : {
@@ -17623,7 +17623,7 @@
         "kk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Сұраныс тоқтатылды. Бұл ниетсіз болды ма, қайтадан байқап көріңіз."
+            "value" : "Сұраныс тоқтатылды. Егер бұл әдейі жасалмаса, қайтадан байқап көріңіз."
           }
         },
         "ko" : {
@@ -17665,19 +17665,19 @@
         "pt-PT" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "A requisição foi cancelada. Tente novamente se isto não era pretendido."
+            "value" : "O pedido foi cancelado. Tente novamente se isto não era pretendido."
           }
         },
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Cererea a fost anulată. Te rugăm să încerci din nou dacă acesta nu era scopul."
+            "value" : "Cererea a fost anulată. Încercați din nou dacă acest lucru nu a fost intenționat."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Запрос был отменен. Пожалуйста, попробуйте снова, если это было ненамеренно."
+            "value" : "Запрос был отменен. Попробуйте снова, если это было ненамеренно."
           }
         },
         "sk" : {
@@ -17777,7 +17777,7 @@
         "el" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Δεν είναι δυνατή η εύρεση του κεντρικού υπολογιστή. Ελέγξτε τη σύνδεση στο διαδίκτυο σας και δοκιμάστε ξανά."
+            "value" : "Δεν είναι δυνατή η εύρεση του κεντρικού υπολογιστή. Ελέγξτε τη σύνδεσή σας στο διαδίκτυο και δοκιμάστε ξανά."
           }
         },
         "en" : {
@@ -17849,7 +17849,7 @@
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nem található házigazda. Kérlek, ellenőrizd az internetkapcsolatodat és próbáld újra."
+            "value" : "Nem található a gazdagép. Kérjük, ellenőrizze az internetkapcsolatot, és próbálja újra."
           }
         },
         "id" : {
@@ -17921,13 +17921,13 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nu se poate găsi gazda. Te rugăm să verifici conexiunea la internet și să încerci din nou."
+            "value" : "Nu se poate găsi gazda. Verificați conexiunea la internet și încercați din nou."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Не удаётся найти хост. Пожалуйста, проверьте подключение к интернету и попробуйте снова."
+            "value" : "Не удаётся найти хост. Проверьте подключение к интернету и попробуйте снова."
           }
         },
         "sk" : {
@@ -18027,7 +18027,7 @@
         "el" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Υπήρξε σύγκρουση με το αίτημα (409). Παρακαλώ ελέγξτε και δοκιμάστε ξανά."
+            "value" : "Υπήρξε σύγκρουση με το αίτημα (409). Ελέγξτε και δοκιμάστε ξανά."
           }
         },
         "en" : {
@@ -18099,7 +18099,7 @@
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ütközés történt a kéréssel (409). Kérlek, ellenőrizd és próbáld újra."
+            "value" : "Ütközés történt a kéréssel (409). Kérjük, ellenőrizze, és próbálja újra."
           }
         },
         "id" : {
@@ -18165,19 +18165,19 @@
         "pt-PT" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Houve um conflito com a requisição (409). Por favor, revise e tente novamente."
+            "value" : "Houve um conflito com o pedido (409). Por favor, reveja e tente novamente."
           }
         },
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "A apărut un conflict cu cererea (409). Te rugăm să revizuiești și să încerci din nou."
+            "value" : "A apărut un conflict cu cererea (409). Revizuiți cererea și încercați din nou."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Произошёл конфликт с запросом (409). Пожалуйста, проверьте и попробуйте снова."
+            "value" : "Произошёл конфликт с запросом (409). Проверьте и попробуйте снова."
           }
         },
         "sk" : {
@@ -18349,7 +18349,7 @@
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nincs jogosultságod hozzáférni ehhez az erőforráshoz (403)."
+            "value" : "Nincs jogosultsága hozzáférni ehhez az erőforráshoz (403)."
           }
         },
         "id" : {
@@ -18421,13 +18421,13 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nu ai permisiunea de a accesa această resursă (403)."
+            "value" : "Nu aveți permisiunea de a accesa această resursă (403)."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "У вас нет прав на доступ к этому ресурсу (403)."
+            "value" : "У Вас нет прав на доступ к этому ресурсу (403)."
           }
         },
         "sk" : {
@@ -18759,7 +18759,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nebyla nalezena žádná síťová připojení. Zkontroluj, prosím, své internetové připojení."
+            "value" : "Nebylo nalezeno žádné síťové připojení. Zkontrolujte prosím své internetové připojení."
           }
         },
         "da" : {
@@ -18777,7 +18777,7 @@
         "el" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Δεν βρέθηκε σύνδεση δικτύου. Παρακαλώ ελέγξτε τη σύνδεση σας."
+            "value" : "Δεν βρέθηκε σύνδεση δικτύου. Ελέγξτε τη σύνδεσή σας."
           }
         },
         "en" : {
@@ -18849,7 +18849,7 @@
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nincs hálózati kapcsolat. Kérlek, ellenőrizd az internetet."
+            "value" : "Nincs hálózati kapcsolat. Kérjük, ellenőrizze az internetet."
           }
         },
         "id" : {
@@ -18903,7 +18903,7 @@
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nie znaleziono połączenia z siecią. Proszę sprawdzić swoje połączenie internetowe."
+            "value" : "Nie znaleziono połączenia z siecią. Sprawdź połączenie internetowe."
           }
         },
         "pt-BR" : {
@@ -18921,19 +18921,19 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nu s-a găsit nicio conexiune la rețea. Te rog, verifică internetul."
+            "value" : "Nu s-a găsit nicio conexiune la rețea. Verificați conexiunea la internet."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Не найдена сеть. Пожалуйста, проверьте ваше интернет-соединение."
+            "value" : "Не найдена сеть. Проверьте интернет-соединение."
           }
         },
         "sk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nebola nájdená žiadna sieťové pripojenie. Skontrolujte svoje internetové pripojenie."
+            "value" : "Nebolo nájdené žiadne sieťové pripojenie. Skontrolujte svoje internetové pripojenie."
           }
         },
         "sv" : {
@@ -19759,7 +19759,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Časový limit žádosti vypršel (408). Zkus to prosím znovu."
+            "value" : "Časový limit žádosti vypršel (408). Zkuste to prosím znovu."
           }
         },
         "da" : {
@@ -19777,7 +19777,7 @@
         "el" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Η αίτηση ξεπέρασε το χρονικό όριο (408). Παρακαλώ, προσπαθήστε ξανά."
+            "value" : "Η αίτηση ξεπέρασε το χρονικό όριο (408). Δοκιμάστε ξανά."
           }
         },
         "en" : {
@@ -19849,7 +19849,7 @@
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "A kérés időtúllépés miatt megszakadt (408). Kérlek, próbáld újra."
+            "value" : "A kérés időtúllépés miatt megszakadt (408). Kérjük, próbálja újra."
           }
         },
         "id" : {
@@ -19903,7 +19903,7 @@
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Czas oczekiwania na żądanie upłynął (408). Proszę spróbować ponownie."
+            "value" : "Czas oczekiwania na żądanie upłynął (408). Spróbuj ponownie."
           }
         },
         "pt-BR" : {
@@ -19915,19 +19915,19 @@
         "pt-PT" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "O pedido excedeu o limite de tempo (408). Por favor, tenta novamente."
+            "value" : "O pedido excedeu o limite de tempo (408). Por favor, tente novamente."
           }
         },
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Cererea a expirat (408). Te rog, încearcă din nou."
+            "value" : "Cererea a expirat (408). Încercați din nou."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Время ожидания запроса истекло (408). Пожалуйста, попробуйте снова."
+            "value" : "Время ожидания запроса истекло (408). Попробуйте снова."
           }
         },
         "sk" : {
@@ -20009,7 +20009,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Server narazil na chybu (500). Zkus to prosím později."
+            "value" : "Server narazil na chybu (500). Zkuste to prosím později."
           }
         },
         "da" : {
@@ -20027,7 +20027,7 @@
         "el" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ο διακομιστής συνάντησε ένα σφάλμα (500). Παρακαλώ, προσπαθήστε ξανά αργότερα."
+            "value" : "Ο διακομιστής συνάντησε ένα σφάλμα (500). Δοκιμάστε ξανά αργότερα."
           }
         },
         "en" : {
@@ -20099,7 +20099,7 @@
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "A szerver hibát észlelt (500). Kérlek, próbáld újra később."
+            "value" : "A szerver hibát észlelt (500). Kérjük, próbálja újra később."
           }
         },
         "id" : {
@@ -20153,7 +20153,7 @@
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Serwer napotkał błąd (500). Proszę spróbować ponownie później."
+            "value" : "Serwer napotkał błąd (500). Spróbuj ponownie później."
           }
         },
         "pt-BR" : {
@@ -20165,19 +20165,19 @@
         "pt-PT" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "O servidor encontrou um erro (500). Por favor, tenta novamente mais tarde."
+            "value" : "O servidor encontrou um erro (500). Por favor, tente novamente mais tarde."
           }
         },
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Serverul a întâmpinat o eroare (500). Te rog, încearcă din nou mai târziu."
+            "value" : "Serverul a întâmpinat o eroare (500). Încercați din nou mai târziu."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "На сервере произошла ошибка (500). Пожалуйста, попробуйте позже."
+            "value" : "На сервере произошла ошибка (500). Попробуйте позже."
           }
         },
         "sk" : {
@@ -20259,7 +20259,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Došlo k chybě SSL. Zkontroluj prosím certifikát serveru."
+            "value" : "Došlo k chybě SSL. Zkontrolujte prosím certifikát serveru."
           }
         },
         "da" : {
@@ -20277,7 +20277,7 @@
         "el" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Παρουσιάστηκε σφάλμα SSL. Παρακαλώ ελέγξτε το πιστοποιητικό του διακομιστή."
+            "value" : "Παρουσιάστηκε σφάλμα SSL. Ελέγξτε το πιστοποιητικό του διακομιστή."
           }
         },
         "en" : {
@@ -20349,7 +20349,7 @@
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "SSL hiba történt. Kérlek, ellenőrizd a szerver tanúsítványát."
+            "value" : "SSL hiba történt. Kérjük, ellenőrizze a szerver tanúsítványát."
           }
         },
         "id" : {
@@ -20403,7 +20403,7 @@
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Wystąpił błąd SSL. Proszę sprawdzić certyfikat serwera."
+            "value" : "Wystąpił błąd SSL. Sprawdź certyfikat serwera."
           }
         },
         "pt-BR" : {
@@ -20415,19 +20415,19 @@
         "pt-PT" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ocorreu um erro SSL. Por favor, verifica o certificado do servidor."
+            "value" : "Ocorreu um erro SSL. Por favor, verifique o certificado do servidor."
           }
         },
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "A apărut o eroare SSL. Te rog, verifică certificatul serverului."
+            "value" : "A apărut o eroare SSL. Verificați certificatul serverului."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Произошла ошибка SSL. Пожалуйста, проверьте сертификат сервера."
+            "value" : "Произошла ошибка SSL. Проверьте сертификат сервера."
           }
         },
         "sk" : {
@@ -20509,7 +20509,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Žádost vypršela. Zkus to prosím znovu."
+            "value" : "Žádost vypršela. Zkuste to prosím znovu."
           }
         },
         "da" : {
@@ -20527,7 +20527,7 @@
         "el" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Η αίτηση ξεπέρασε το όριο χρόνου. Παρακαλώ δοκιμάστε ξανά."
+            "value" : "Η αίτηση ξεπέρασε το όριο χρόνου. Δοκιμάστε ξανά."
           }
         },
         "en" : {
@@ -20599,7 +20599,7 @@
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "A kérés időtúllépés miatt megszakadt. Kérlek, próbáld újra."
+            "value" : "A kérés időtúllépés miatt megszakadt. Kérjük, próbálja újra."
           }
         },
         "id" : {
@@ -20635,7 +20635,7 @@
         "ms" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Permintaan telah Tamat masa. Sila cuba lagi."
+            "value" : "Permintaan telah tamat masa. Sila cuba lagi."
           }
         },
         "nb" : {
@@ -20653,7 +20653,7 @@
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Żądanie przekroczyło limit czasu. Proszę spróbować ponownie."
+            "value" : "Żądanie przekroczyło limit czasu. Spróbuj ponownie."
           }
         },
         "pt-BR" : {
@@ -20665,19 +20665,19 @@
         "pt-PT" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "O pedido expirou. Por favor, tenta novamente."
+            "value" : "O pedido expirou. Por favor, tente novamente."
           }
         },
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Cererea a expirat. Te rog încearcă din nou."
+            "value" : "Cererea a expirat. Încercați din nou."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Время ожидания запроса истекло. Пожалуйста, попробуйте снова."
+            "value" : "Время ожидания запроса истекло. Попробуйте снова."
           }
         },
         "sk" : {
@@ -20759,7 +20759,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Bylo odesláno příliš mnoho žádostí. Prosím počkej a zkus to znovu (429)."
+            "value" : "Bylo odesláno příliš mnoho žádostí. Prosím počkejte a zkuste to znovu (429)."
           }
         },
         "da" : {
@@ -20777,7 +20777,7 @@
         "el" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Έχουν σταλεί πάρα πολλές αιτήσεις. Παρακαλώ περιμένετε και δοκιμάστε ξανά (429)."
+            "value" : "Έχουν σταλεί πάρα πολλές αιτήσεις. Περιμένετε και δοκιμάστε ξανά (429)."
           }
         },
         "en" : {
@@ -20849,7 +20849,7 @@
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Túl sok kérés lett küldve. Kérlek, várj és próbáld újra (429)."
+            "value" : "Túl sok kérés lett küldve. Kérjük, várjon, és próbálja újra (429)."
           }
         },
         "id" : {
@@ -20903,7 +20903,7 @@
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Wysłano zbyt wiele żądań. Proszę poczekać i spróbować ponownie (429)."
+            "value" : "Wysłano zbyt wiele żądań. Poczekaj i spróbuj ponownie (429)."
           }
         },
         "pt-BR" : {
@@ -20915,19 +20915,19 @@
         "pt-PT" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Foram enviados pedidos em excesso. Por favor, espera e tenta novamente (429)."
+            "value" : "Foram enviados pedidos em excesso. Por favor, aguarde e tente novamente (429)."
           }
         },
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Au fost trimise prea multe cereri. Te rog așteaptă și încearcă din nou (429)."
+            "value" : "Au fost trimise prea multe cereri. Așteptați și încercați din nou (429)."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Слишком много запросов было отправлено. Пожалуйста, подождите и попробуйте еще раз (429)."
+            "value" : "Слишком много запросов было отправлено. Подождите и попробуйте еще раз (429)."
           }
         },
         "sk" : {
@@ -21009,7 +21009,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nemáš oprávnění k přístupu k tomuto zdroji (401)."
+            "value" : "Nemáte oprávnění k přístupu k tomuto zdroji (401)."
           }
         },
         "da" : {
@@ -21069,7 +21069,7 @@
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Vous n'êtes pas autorisé à accéder à cette ressource (401)."
+            "value" : "Accès non autorisé à cette ressource (401)."
           }
         },
         "fr-CA" : {
@@ -21099,7 +21099,7 @@
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nincs jogosultságod ehhez az erőforráshoz (401)."
+            "value" : "Nincs jogosultsága ehhez az erőforráshoz (401)."
           }
         },
         "id" : {
@@ -21165,25 +21165,25 @@
         "pt-PT" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Não estás autorizado a aceder a este recurso (401)."
+            "value" : "Não tem autorização para aceder a este recurso (401)."
           }
         },
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nu ești autorizat să accesezi această resursă (401)."
+            "value" : "Nu sunteți autorizat să accesați această resursă (401)."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "У вас нет прав для доступа к этому ресурсу (401)."
+            "value" : "У Вас нет прав для доступа к этому ресурсу (401)."
           }
         },
         "sk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nie ste oprávnený na prístup k tomuto zdroju (401)."
+            "value" : "Nemáte oprávnenie na prístup k tomuto zdroju (401)."
           }
         },
         "sv" : {
@@ -21497,7 +21497,7 @@
         "bg" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Съществуващият тип медия в заявката не се поддържа (415)."
+            "value" : "Обектът на заявката има неподдържан тип медия (415)."
           }
         },
         "ca" : {
@@ -21665,7 +21665,7 @@
         "pt-PT" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "A entidade do pedido tem um tipo de mídia não suportado (415)."
+            "value" : "A entidade do pedido tem um tipo de multimédia não suportado (415)."
           }
         },
         "ro" : {
