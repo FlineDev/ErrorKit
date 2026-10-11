@@ -2,52 +2,52 @@
   "sourceLanguage" : "en",
   "strings" : {
     "A file system error occurred: %@" : {
-
+      "extractionState" : "stale"
     },
     "A mandatory property is missing. Please fill all required fields." : {
-
+      "extractionState" : "stale"
     },
     "A MapKit error occurred: %@" : {
-
+      "extractionState" : "stale"
     },
     "A network error occurred: %@" : {
-
+      "extractionState" : "stale"
     },
     "A relationship is missing required related objects." : {
-
+      "extractionState" : "stale"
     },
     "A required condition was not met: %@. Please complete all prerequisites before proceeding." : {
-
+      "extractionState" : "stale"
     },
     "A system error occurred: %@" : {
-
+      "extractionState" : "stale"
     },
     "Access to %@ is currently restricted. This may be due to system settings or parental controls." : {
-
+      "extractionState" : "stale"
     },
     "Access to %@ was declined. To use this feature, please enable the permission in your device Settings." : {
-
+      "extractionState" : "stale"
     },
     "An error occurred while attempting to read the file %@. Please check file permissions and try again." : {
-
+      "extractionState" : "stale"
     },
     "An object validation error occurred." : {
-
+      "extractionState" : "stale"
     },
     "An unknown error occurred in MapKit." : {
-
+      "extractionState" : "stale"
     },
     "An unknown error occurred while reading the file." : {
-
+      "extractionState" : "stale"
     },
     "An unknown error occurred while writing the file." : {
-
+      "extractionState" : "stale"
     },
     "An unknown status code was received from the server: %lld" : {
-
+      "extractionState" : "stale"
     },
     "Bad file descriptor. The file may be closed or invalid." : {
-
+      "extractionState" : "stale"
     },
     "BuiltInErrors.DatabaseError.connectionFailed" : {
       "localizations" : {
@@ -804,7 +804,7 @@
         "ar" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "لم يتم العثور على السجل %1$@ بالمعرف %2$@ في قاعدة البيانات. تحقق من التفاصيل وحاول مرة أخرى. "
+            "value" : "لم يتم العثور على السجل %1$@ بالمعرف %2$@ في قاعدة البيانات. تحقق من التفاصيل وحاول مرة أخرى."
           }
         },
         "bg" : {
@@ -2560,13 +2560,13 @@
         "bg" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Сървърът срещна грешка (Код: %lld)."
+            "value" : "Сървърът срещна грешка (Код: %lld). "
           }
         },
         "ca" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "El servidor ha trobat un error (Codi: %lld)."
+            "value" : "El servidor ha trobat un error (Codi: %lld). "
           }
         },
         "cs" : {
@@ -2584,7 +2584,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Der Server hat einen Fehler festgestellt (Code: %lld)."
+            "value" : "Der Server hat einen Fehler festgestellt (Code: %lld). "
           }
         },
         "el" : {
@@ -2614,7 +2614,7 @@
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "El servidor encontró un error (Código: %lld)."
+            "value" : "El servidor encontró un error (Código: %lld). "
           }
         },
         "es-419" : {
@@ -2644,19 +2644,19 @@
         "he" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "השרת נתקל בשגיאה (קוד: %lld). אנא נסה שוב."
+            "value" : "השרת נתקל בשגיאה (קוד: %lld). אנא נסה שוב. "
           }
         },
         "hi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "सर्वर में एक त्रुटि आई (कोड: %lld)।"
+            "value" : "सर्वर में एक त्रुटि आई (कोड: %lld)। "
           }
         },
         "hr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Poslužitelj je naišao na grešku (Kod: %lld)."
+            "value" : "Poslužitelj je naišao na grešku (Kod: %lld). "
           }
         },
         "hu" : {
@@ -2674,25 +2674,25 @@
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Il server ha riscontrato un errore (Codice: %lld)."
+            "value" : "Il server ha riscontrato un errore (Codice: %lld). "
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "サーバーエラーが発生しました (コード: %lld)。"
+            "value" : "サーバーエラーが発生しました (コード: %lld)。 "
           }
         },
         "kk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Серверде қате орын алды (Код: %lld)."
+            "value" : "Серверде қате орын алды (Код: %lld). "
           }
         },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "서버에서 오류가 발생했습니다 (코드: %lld)."
+            "value" : "서버에서 오류가 발생했습니다 (코드: %lld). "
           }
         },
         "ms" : {
@@ -2704,13 +2704,13 @@
         "nb" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Serveren opplevde en feil (Kode: %lld)."
+            "value" : "Serveren opplevde en feil (Kode: %lld). "
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "De server heeft een fout ondervonden (Code: %lld)."
+            "value" : "De server heeft een fout ondervonden (Code: %lld). "
           }
         },
         "pl" : {
@@ -2752,19 +2752,19 @@
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Servern stötte på ett fel (Kod: %lld)."
+            "value" : "Servern stötte på ett fel (Kod: %lld). "
           }
         },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "เซิร์ฟเวอร์พบข้อผิดพลาด (รหัส: %lld)."
+            "value" : "เซิร์ฟเวอร์พบข้อผิดพลาด (รหัส: %lld). "
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sunucu bir hata ile karşılaştı (Kod: %lld)."
+            "value" : "Sunucu bir hata ile karşılaştı (Kod: %lld). "
           }
         },
         "uk" : {
@@ -2782,19 +2782,19 @@
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "服务器遇到错误（代码：%lld）。"
+            "value" : "服务器遇到错误（代码：%lld）。 "
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "伺服器遇到錯誤（代碼：%lld）。"
+            "value" : "伺服器遇到錯誤（代碼：%lld）。 "
           }
         },
         "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "伺服器發生錯誤 (代碼: %lld)。"
+            "value" : "伺服器發生錯誤 (代碼: %lld)。 "
           }
         }
       }
@@ -3144,7 +3144,7 @@
         "he" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "הפעולה בוטלה בהמלצתך. תוכל לנסות את הפעולה שוב אם תצטרך."
+            "value" : "הפעולה בוטלה לבקשתך. תוכל לנסות את הפעולה שוב אם תצטרך."
           }
         },
         "hi" : {
@@ -6300,7 +6300,7 @@
       }
     },
     "Cannot find host. Please check your internet connection and try again." : {
-
+      "extractionState" : "stale"
     },
     "EnhancedDescriptions.CocoaError.default" : {
       "localizations" : {
@@ -12803,14 +12803,14 @@
       }
     },
     "Failed to save the data. Please try again." : {
-
+      "extractionState" : "stale"
     },
     "Logging.MailComposer.dismissButton" : {
       "localizations" : {
         "ar" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "إغلاق"
+            "value" : "استبعاد"
           }
         },
         "bg" : {
@@ -12822,7 +12822,7 @@
         "ca" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Descartar"
+            "value" : "Tanca"
           }
         },
         "cs" : {
@@ -12834,7 +12834,7 @@
         "da" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Afvis"
+            "value" : "Luk"
           }
         },
         "de" : {
@@ -12870,7 +12870,7 @@
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Descartar"
+            "value" : "Cerrar"
           }
         },
         "es-419" : {
@@ -12882,7 +12882,7 @@
         "fi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Hylkää"
+            "value" : "Sulje"
           }
         },
         "fr" : {
@@ -12900,25 +12900,25 @@
         "he" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "בעיה"
+            "value" : "סגירה"
           }
         },
         "hi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "छोड़ें"
+            "value" : "ख़ारिज करें"
           }
         },
         "hr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Zatvori"
+            "value" : "Odbaci"
           }
         },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Eltávolítás"
+            "value" : "Bezárás"
           }
         },
         "id" : {
@@ -12960,19 +12960,19 @@
         "nb" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Avbryt"
+            "value" : "Lukk"
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sluiten"
+            "value" : "Sluit"
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Anuluj"
+            "value" : "OK"
           }
         },
         "pt-BR" : {
@@ -12984,13 +12984,13 @@
         "pt-PT" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Descartar"
+            "value" : "Fechar"
           }
         },
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Închide"
+            "value" : "Închideți"
           }
         },
         "ru" : {
@@ -13002,19 +13002,19 @@
         "sk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Zavrieť"
+            "value" : "Zrušiť"
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Avbryt"
+            "value" : "Avfärda"
           }
         },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "ปิด"
+            "value" : "ปิดทิ้ง"
           }
         },
         "tr" : {
@@ -13026,7 +13026,7 @@
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Закрити"
+            "value" : "Прибрати"
           }
         },
         "vi" : {
@@ -13038,7 +13038,7 @@
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "取消"
+            "value" : "关闭"
           }
         },
         "zh-Hant" : {
@@ -13317,19 +13317,19 @@
         "bg" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Имейлът не е наличен"
+            "value" : "Пощата не е достъпна"
           }
         },
         "ca" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Correu No Disponible"
+            "value" : "Mail no disponible"
           }
         },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Email není k dispozici"
+            "value" : "Pošta není k dispozici"
           }
         },
         "da" : {
@@ -13347,7 +13347,7 @@
         "el" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Η Mail δεν είναι διαθέσιμη"
+            "value" : "Το Mail δεν διατίθεται"
           }
         },
         "en" : {
@@ -13371,7 +13371,7 @@
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Correo no disponible"
+            "value" : "Mail no disponible"
           }
         },
         "es-419" : {
@@ -13383,7 +13383,7 @@
         "fi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Posti ei saatavilla"
+            "value" : "Mail ei ole käytettävissä"
           }
         },
         "fr" : {
@@ -13395,31 +13395,31 @@
         "fr-CA" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Courrier non disponible"
+            "value" : "Mail non disponible"
           }
         },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "אימייל לא זמין"
+            "value" : "״דואר״ אינו זמין"
           }
         },
         "hi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "मेल उपलब्ध नहीं है"
+            "value" : "मेल अनुपलब्ध"
           }
         },
         "hr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "E-pošta nije dostupna"
+            "value" : "Mail nije dostupan"
           }
         },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "A Mail nem elérhető"
+            "value" : "A Mail nem érhető el"
           }
         },
         "id" : {
@@ -13431,13 +13431,13 @@
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Mail Non Disponibile"
+            "value" : "Mail non è disponibile"
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "メールが使用できません"
+            "value" : "メールを使用できません"
           }
         },
         "kk" : {
@@ -13449,49 +13449,49 @@
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "메일 사용 불가능"
+            "value" : "Mail을 사용할 수 없음"
           }
         },
         "ms" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Emel Tidak Tersedia"
+            "value" : "Mail Tidak Tersedia"
           }
         },
         "nb" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "E-post ikke tilgjengelig"
+            "value" : "Mail ikke tilgjengelig"
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Mail Niet Beschikbaar"
+            "value" : "Mail niet beschikbaar"
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Mail niedostępny"
+            "value" : "Aplikacja Poczta niedostępna"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "E-mail Não Disponível"
+            "value" : "E-mail não disponível"
           }
         },
         "pt-PT" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Mail Não Disponível"
+            "value" : "Correio indisponível"
           }
         },
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Mail indisponibil"
+            "value" : "E-mail indisponibil"
           }
         },
         "ru" : {
@@ -13503,13 +13503,13 @@
         "sk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Mail nie je k dispozícii"
+            "value" : "Mail je nedostupný"
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "E-post inte tillgänglig"
+            "value" : "Mail är inte tillgänglig"
           }
         },
         "th" : {
@@ -13521,69 +13521,70 @@
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Mail Mevcut Değil"
+            "value" : "Mail Kullanılamıyor"
           }
         },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Пошта недоступна"
+            "value" : "Немає доступу до Пошти"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Mail Không Khả Dụng"
+            "value" : "Mail Không khả dụng"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "邮件不可用"
+            "value" : "“邮件”不可用"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "郵件不可用"
+            "value" : "無法使用「郵件」"
           }
         },
         "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "郵件不可用"
+            "value" : "無法使用「郵件」"
           }
         }
       }
     },
     "Map loading is being throttled. Please wait a moment and try again." : {
-
+      "extractionState" : "stale"
     },
     "Multiple validation errors occurred while saving." : {
-
+      "extractionState" : "stale"
     },
     "No directions could be found for the specified route." : {
-
+      "extractionState" : "stale"
     },
     "No network connection found. Please check your internet." : {
-
+      "extractionState" : "stale"
     },
     "Payment is required to access this resource (402)." : {
-
+      "extractionState" : "stale"
     },
     "Permission denied. Please check your file permissions." : {
-
+      "extractionState" : "stale"
     },
     "Permission for %@ has not been confirmed. Please review and grant access in your device Settings." : {
-
+      "extractionState" : "stale"
     },
     "Please provide a value for %@. This information is required to proceed." : {
-
+      "extractionState" : "stale"
     },
     "Please try again later." : {
-
+      "extractionState" : "stale"
     },
     "The %@ field cannot be longer than %lld characters. Please shorten your input and try again." : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -13594,9 +13595,10 @@
       }
     },
     "The %@ record was not found in the database. Verify the details and try again." : {
-
+      "extractionState" : "stale"
     },
     "The %@ record with ID %@ was not found in the database. Verify the details and try again." : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -13607,117 +13609,118 @@
       }
     },
     "The current state prevents this action: %@. Please ensure all requirements are met and try again." : {
-
+      "extractionState" : "stale"
     },
     "The data store is incompatible with the current model version." : {
-
+      "extractionState" : "stale"
     },
     "The database operation for %@ could not be completed. Please retry the action." : {
-
+      "extractionState" : "stale"
     },
     "The file %@ could not be located. Please verify the file path and try again." : {
-
+      "extractionState" : "stale"
     },
     "The file could not be found." : {
-
+      "extractionState" : "stale"
     },
     "The file is corrupted or in an unreadable format." : {
-
+      "extractionState" : "stale"
     },
     "The file is locked and cannot be modified." : {
-
+      "extractionState" : "stale"
     },
     "The file is too large to be processed." : {
-
+      "extractionState" : "stale"
     },
     "The file name is invalid and cannot be used." : {
-
+      "extractionState" : "stale"
     },
     "The file or directory already exists." : {
-
+      "extractionState" : "stale"
     },
     "The file's character encoding is not supported." : {
-
+      "extractionState" : "stale"
     },
     "The HTTP method is not allowed for this resource (405)." : {
-
+      "extractionState" : "stale"
     },
     "The MapKit server returned an error. Please try again later." : {
-
+      "extractionState" : "stale"
     },
     "The network connection was lost. Please try again." : {
-
+      "extractionState" : "stale"
     },
     "The network request took too long to complete. Please check your connection and try again." : {
-
+      "extractionState" : "stale"
     },
     "The operation could not be started because a required component failed to initialize: %@. Please restart the application or contact support." : {
-
+      "extractionState" : "stale"
     },
     "The operation was canceled at your request. You can retry the action if needed." : {
-
+      "extractionState" : "stale"
     },
     "The provided input could not be processed correctly: %@. Please review the input and ensure it matches the expected format." : {
-
+      "extractionState" : "stale"
     },
     "The request entity has an unsupported media type (415)." : {
-
+      "extractionState" : "stale"
     },
     "The request timed out (408). Please try again." : {
-
+      "extractionState" : "stale"
     },
     "The request timed out. Please try again later." : {
-
+      "extractionState" : "stale"
     },
     "The request timed out. Please try again." : {
-
+      "extractionState" : "stale"
     },
     "The request was cancelled. Please try again if this wasn't intended." : {
-
+      "extractionState" : "stale"
     },
     "The request was malformed (400). Please review and try again." : {
-
+      "extractionState" : "stale"
     },
     "The requested placemark could not be found. Please check the location details." : {
-
+      "extractionState" : "stale"
     },
     "The requested resource cannot produce an acceptable response (406)." : {
-
+      "extractionState" : "stale"
     },
     "The requested resource could not be found (404)." : {
-
+      "extractionState" : "stale"
     },
     "The required information is incomplete. The %@ field is missing and must be provided to continue." : {
-
+      "extractionState" : "stale"
     },
     "The server encountered an error (500). Please try again later." : {
-
+      "extractionState" : "stale"
     },
     "The server encountered an error (Code: %lld). " : {
-
+      "extractionState" : "stale"
     },
     "The specified file or directory could not be found." : {
-
+      "extractionState" : "stale"
     },
     "The storage volume is read-only and cannot be modified." : {
-
+      "extractionState" : "stale"
     },
     "The URL is malformed. Please check it and try again or report a bug." : {
-
+      "extractionState" : "stale"
     },
     "The value entered for %@ is not in the correct format. Please review the requirements and try again." : {
-
+      "extractionState" : "stale"
     },
     "There is no space left on the device." : {
-
+      "extractionState" : "stale"
     },
     "There is not enough disk space to complete the operation." : {
-
+      "extractionState" : "stale"
     },
     "There was a conflict with the request (409). Please review and try again." : {
-
+      "extractionState" : "stale"
     },
     "There was an issue with the request (Code: %lld). %@. Please review and retry." : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -13728,13 +13731,13 @@
       }
     },
     "There was an SSL error. Please check the server's certificate." : {
-
+      "extractionState" : "stale"
     },
     "This item has already been finalized and cannot be modified. Please create a new version if changes are needed." : {
-
+      "extractionState" : "stale"
     },
     "Too many requests have been sent. Please wait and try again (429)." : {
-
+      "extractionState" : "stale"
     },
     "TypedOverloads.FileManager.corruptFile" : {
       "localizations" : {
@@ -21737,40 +21740,40 @@
       }
     },
     "Unable to connect to the internet. Please check your network settings and try again." : {
-
+      "extractionState" : "stale"
     },
     "Unable to establish a connection to the database. Check your network settings and try again." : {
-
+      "extractionState" : "stale"
     },
     "Unable to find the server. Please check the URL or your network." : {
-
+      "extractionState" : "stale"
     },
     "Unable to open the persistent store. Please check your storage or permissions." : {
-
+      "extractionState" : "stale"
     },
     "Unable to process the server's response. Please try again or contact support if the issue persists." : {
-
+      "extractionState" : "stale"
     },
     "Unable to write to the file %@. Ensure you have the necessary permissions and try again." : {
-
+      "extractionState" : "stale"
     },
     "You are not authorized to access this resource (401)." : {
-
+      "extractionState" : "stale"
     },
     "You are not connected to the Internet. Please check your connection." : {
-
+      "extractionState" : "stale"
     },
     "You do not have permission to access this resource (403)." : {
-
+      "extractionState" : "stale"
     },
     "You do not have permission to read this file or directory." : {
-
+      "extractionState" : "stale"
     },
     "You do not have permission to read this file." : {
-
+      "extractionState" : "stale"
     },
     "You do not have permission to write to this file or directory." : {
-
+      "extractionState" : "stale"
     }
   },
   "version" : "1.0"
