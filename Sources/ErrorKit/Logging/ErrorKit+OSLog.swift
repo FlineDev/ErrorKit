@@ -157,6 +157,8 @@
       }
    }
 
+   // HandySwift defines the same three helpers. Disfavoring these lets a file that imports both modules (as FlineDevKit
+   // does) pick HandySwift's without an ambiguity error, while ErrorKit alone still offers `.minutes(30)` for its log APIs.
    extension Duration {
       /// Returns the duration as a `TimeInterval`.
       ///
@@ -169,8 +171,37 @@
       /// ```
       ///
       /// - Returns: The duration as a `TimeInterval`, which represents the duration in seconds.
-      var timeInterval: TimeInterval {
+      @_disfavoredOverload
+      public var timeInterval: TimeInterval {
          TimeInterval(self.components.seconds) + (TimeInterval(self.components.attoseconds) / 1_000_000_000_000_000_000)
+      }
+
+      /// Constructs a `Duration` given a number of minutes represented as a `BinaryInteger`.
+      ///
+      /// Example:
+      /// ```swift
+      /// try ErrorKit.logAttachment(ofLast: .minutes(30))
+      /// ```
+      ///
+      /// - Parameter minutes: The number of minutes.
+      /// - Returns: A `Duration` representing the given number of minutes.
+      @_disfavoredOverload
+      public static func minutes<T: BinaryInteger>(_ minutes: T) -> Duration {
+         self.seconds(minutes * 60)
+      }
+
+      /// Constructs a `Duration` given a number of hours represented as a `BinaryInteger`.
+      ///
+      /// Example:
+      /// ```swift
+      /// try ErrorKit.logAttachment(ofLast: .hours(1), minLevel: .error)
+      /// ```
+      ///
+      /// - Parameter hours: The number of hours.
+      /// - Returns: A `Duration` representing the given number of hours.
+      @_disfavoredOverload
+      public static func hours<T: BinaryInteger>(_ hours: T) -> Duration {
+         self.seconds(hours * 3600)
       }
    }
 #endif
