@@ -5,6 +5,7 @@
    import Foundation
    import OSLog
 
+   @available(iOS 16, tvOS 16, *)
    extension ErrorKit {
       /// Returns log data from the unified logging system for a specified time period and minimum level.
       ///
@@ -159,6 +160,7 @@
 
    // HandySwift defines the same three helpers. Disfavoring these lets a file that imports both modules (as FlineDevKit
    // does) pick HandySwift's without an ambiguity error, while ErrorKit alone still offers `.minutes(30)` for its log APIs.
+   @available(iOS 16, tvOS 16, *)
    extension Duration {
       /// Returns the duration as a `TimeInterval`.
       ///
