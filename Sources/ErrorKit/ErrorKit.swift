@@ -162,7 +162,8 @@ public enum ErrorKit {
    ///    - indent: The indentation of the surrounding text when you embed the chain in an already indented message.
    /// - Returns: A formatted string showing the complete error hierarchy with indentation
    public static func errorChainDescription(for error: Error, indent: String) -> String {
-      Self.chainDescription(for: error, indent: indent, enclosingType: type(of: error))
+      let description = Self.chainDescription(for: error, indent: "", enclosingType: type(of: error))
+      return description.replacing("\n", with: "\n\(indent)")
    }
 
    private static func chainDescription(for error: Error, indent: String, enclosingType: Any.Type?) -> String {

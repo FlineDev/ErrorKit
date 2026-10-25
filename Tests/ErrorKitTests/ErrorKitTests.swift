@@ -86,6 +86,40 @@ enum ErrorKitTests {
    }
 
    enum ErrorChainDescription {
+      struct MultilineThrowable: Throwable {
+         let userFriendlyMessage = "First line\n\nLast line\n"
+      }
+
+      @Test(arguments: ["", "  ", "│ ", "\t>> "], [false, true])
+      static func multilineMessageContinuationWithIndent(indent: String, deeplyNested: Bool) {
+         let leaf = MultilineThrowable()
+         let error: any Error =
+            deeplyNested
+            ? StateError.caught(OperationError.caught(DatabaseError.caught(leaf)))
+            : leaf
+         let expected =
+            deeplyNested
+            ? """
+            StateError
+            \(indent)└─ OperationError
+            \(indent)   └─ DatabaseError
+            \(indent)      └─ MultilineThrowable [Struct]
+            \(indent)         └─ userFriendlyMessage: "First line
+            \(indent)
+            \(indent)Last line
+            \(indent)"
+            """
+            : """
+            MultilineThrowable [Struct]
+            \(indent)└─ userFriendlyMessage: "First line
+            \(indent)
+            \(indent)Last line
+            \(indent)"
+            """
+         #expect(ErrorKit.errorChainDescription(for: error, indent: indent) == expected)
+         #expect(ErrorKit.errorChainDescription(for: error) == ErrorKit.errorChainDescription(for: error, indent: ""))
+      }
+
       @Test
       static func localizedError() {
          #expect(
