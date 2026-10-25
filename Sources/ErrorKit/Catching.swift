@@ -174,10 +174,15 @@ extension Catching {
    /// }
    /// ```
    ///
-   /// - Parameter operation: The async throwing operation to execute.
+   /// The operation runs on the caller's actor, so it can use actor-isolated state and non-Sendable values directly.
+   ///
+   /// - Parameters:
+   ///   - isolation: The actor to run on. Leave the default, which is the caller's actor.
+   ///   - operation: The async throwing operation to execute.
    /// - Returns: The value returned by the operation if successful.
    /// - Throws: An instance of `Self` with the original error wrapped in the `caught` case.
    public static func `catch`<ReturnType>(
+      isolation: isolated (any Actor)? = #isolation,
       _ operation: () async throws -> ReturnType
    ) async throws(Self) -> ReturnType {
       do {
