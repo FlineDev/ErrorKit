@@ -181,6 +181,7 @@ ErrorKit's debugging tools transform error handling from a black box into a tran
 
 ### Essentials
 
+- ``ErrorKit/errorChainDescription(for:)``
 - ``ErrorKit/errorChainDescription(for:indent:)``
 - ``ErrorKit/groupingID(for:)``
 

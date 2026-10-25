@@ -56,6 +56,7 @@ struct CatchingIsolationTests {
    }
 
    @Test
+   @MainActor
    func nonSendableCapturesStillWork() async throws {
       let counter = Counter()
       let result = try await LoadError.catch(isolation: #isolation) {
@@ -64,13 +65,45 @@ struct CatchingIsolationTests {
          return counter.value
       }
       #expect(result == 1)
+      #expect(counter.value == 1)
    }
 
    @Test
    func errorsAreStillWrapped() async {
-      struct Underlying: Error {}
-      await #expect(throws: LoadError.self) {
-         try await LoadError.catch(isolation: #isolation) { () async throws -> Int in throw Underlying() }
+      struct Underlying: Error, Equatable {
+         let code: Int
+      }
+      let expectedError = Underlying(code: 42)
+      do {
+         _ = try await LoadError.catch(isolation: #isolation) { () async throws -> Int in
+            throw expectedError
+         }
+         Issue.record("Expected the underlying error to be wrapped.")
+      } catch {
+         switch error {
+         case .caught(let underlying):
+            #expect(underlying as? Underlying == expectedError)
+         }
+      }
+   }
+
+   @Test
+   func errorsAreNotWrappedTwice() async {
+      struct Underlying: Error, Equatable {
+         let code: Int
+      }
+      let expectedError = Underlying(code: 43)
+      let wrappedError = LoadError.caught(expectedError)
+      do {
+         _ = try await LoadError.catch(isolation: #isolation) { () async throws -> Int in
+            throw wrappedError
+         }
+         Issue.record("Expected the already wrapped error to be thrown.")
+      } catch {
+         switch error {
+         case .caught(let underlying):
+            #expect(underlying as? Underlying == expectedError)
+         }
       }
    }
 }

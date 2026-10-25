@@ -35,7 +35,7 @@ extension String.StringInterpolation {
 
    /// Interpolates an error using its complete chain description for debugging.
    ///
-   /// Uses ``ErrorKit/errorChainDescription(for:indent:)`` to show the full error hierarchy,
+   /// Uses ``ErrorKit/errorChainDescription(for:)`` to show the full error hierarchy,
    /// type information, and nested structure. Ideal for logging and debugging.
    ///
    /// ```swift
@@ -54,7 +54,7 @@ extension String.StringInterpolation {
 
    /// Interpolates an error using its complete chain description for debugging.
    ///
-   /// Uses ``ErrorKit/errorChainDescription(for:indent:)`` to show the full error hierarchy,
+   /// Uses ``ErrorKit/errorChainDescription(for:)`` to show the full error hierarchy,
    /// type information, and nested structure. Ideal for logging and debugging.
    ///
    /// ```swift

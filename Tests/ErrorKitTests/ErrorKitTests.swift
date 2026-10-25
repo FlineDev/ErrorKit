@@ -178,6 +178,30 @@ enum ErrorKitTests {
       }
 
       @Test
+      static func deeplyNestedThrowablesWithIndent() {
+         let nestedError = StateError.caught(
+            OperationError.caught(
+               DatabaseError.caught(
+                  FileError.caught(
+                     PermissionError.denied(permission: "~/Downloads/Profile.png")
+                  )
+               )
+            )
+         )
+         let generatedErrorChainDescription = ErrorKit.errorChainDescription(for: nestedError, indent: ">>")
+         let expectedErrorChainDescription = """
+            StateError
+            >>└─ OperationError
+            >>   └─ DatabaseError
+            >>      └─ FileError
+            >>         └─ PermissionError.denied(permission: "~/Downloads/Profile.png")
+            >>            └─ userFriendlyMessage: "Access to ~/Downloads/Profile.png was declined. To use this feature, please enable the permission in your device Settings."
+            """
+         #expect(generatedErrorChainDescription == expectedErrorChainDescription)
+         #expect(ErrorKit.errorChainDescription(for: nestedError) == ErrorKit.errorChainDescription(for: nestedError, indent: ""))
+      }
+
+      @Test
       static func deeplyNestedThrowablesWithStructLeaf() {
          let nestedError = StateError.caught(
             OperationError.caught(

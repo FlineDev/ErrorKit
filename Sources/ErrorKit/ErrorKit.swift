@@ -207,7 +207,7 @@ public enum ErrorKit {
 
    /// Generates a stable identifier that groups similar errors based on their type structure.
    ///
-   /// While ``errorChainDescription(for:indent:)`` provides a detailed view of an error chain including all parameters and messages,
+   /// While ``errorChainDescription(for:)`` provides a detailed view of an error chain including all parameters and messages,
    /// this function creates a consistent hash that only considers the error type hierarchy. This allows grouping similar errors
    /// that differ only in their specific parameters or localized messages.
    ///
