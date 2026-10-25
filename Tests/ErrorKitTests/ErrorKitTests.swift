@@ -143,6 +143,18 @@ enum ErrorKitTests {
       }
 
       @Test
+      static func shallowNestedWithIndent() {
+         let nestedError = DatabaseError.caught(FileError.fileNotFound(fileName: "App.sqlite"))
+         let generatedErrorChainDescription = ErrorKit.errorChainDescription(for: nestedError, indent: "  ")
+         let expectedErrorChainDescription = """
+            DatabaseError
+              └─ FileError.fileNotFound(fileName: "App.sqlite")
+                 └─ userFriendlyMessage: "The file App.sqlite could not be located. Please verify the file path and try again."
+            """
+         #expect(generatedErrorChainDescription == expectedErrorChainDescription)
+      }
+
+      @Test
       static func deeplyNestedThrowablesWithEnumLeaf() {
          let nestedError = StateError.caught(
             OperationError.caught(

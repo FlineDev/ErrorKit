@@ -151,7 +151,7 @@ public enum ErrorKit {
    ///
    /// - Parameters:
    ///    - error: The error to describe, potentially containing nested errors
-   ///    - indent: The initial indent string (normally "")
+   ///    - indent: A prefix for every line after the first. Pass the indentation of the surrounding text when you embed the chain in an already indented message.
    /// - Returns: A formatted string showing the complete error hierarchy with indentation
    public static func errorChainDescription(for error: Error, indent: String = "") -> String {
       Self.chainDescription(for: error, indent: indent, enclosingType: type(of: error))
@@ -199,7 +199,7 @@ public enum ErrorKit {
 
    /// Generates a stable identifier that groups similar errors based on their type structure.
    ///
-   /// While ``errorChainDescription(for:)`` provides a detailed view of an error chain including all parameters and messages,
+   /// While ``errorChainDescription(for:indent:)`` provides a detailed view of an error chain including all parameters and messages,
    /// this function creates a consistent hash that only considers the error type hierarchy. This allows grouping similar errors
    /// that differ only in their specific parameters or localized messages.
    ///
