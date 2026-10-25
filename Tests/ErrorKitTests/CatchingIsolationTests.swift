@@ -1,6 +1,5 @@
-import Testing
-
 import ErrorKit
+import Testing
 
 /// These tests mostly prove something at compile time: `catch` must accept a closure that touches actor-isolated state
 /// or captures non-Sendable values. Without the inherited isolation, Swift 6 rejects both with "sending value of
@@ -24,7 +23,7 @@ struct CatchingIsolationTests {
       func fetch() async throws -> Int { 2 }
 
       func refresh() async throws {
-         self.total = try await LoadError.catch {
+         self.total = try await LoadError.catch(isolation: #isolation) {
             try await self.fetch() + self.total
          }
       }
@@ -34,7 +33,7 @@ struct CatchingIsolationTests {
       var count = 1
 
       func increment() async throws -> Int {
-         try await LoadError.catch {
+         try await LoadError.catch(isolation: #isolation) {
             try await Task.sleep(for: .zero)
             self.count += 1
             return self.count
@@ -59,7 +58,7 @@ struct CatchingIsolationTests {
    @Test
    func nonSendableCapturesStillWork() async throws {
       let counter = Counter()
-      let result = try await LoadError.catch {
+      let result = try await LoadError.catch(isolation: #isolation) {
          try await Task.sleep(for: .zero)
          counter.value += 1
          return counter.value
@@ -71,7 +70,7 @@ struct CatchingIsolationTests {
    func errorsAreStillWrapped() async {
       struct Underlying: Error {}
       await #expect(throws: LoadError.self) {
-         try await LoadError.catch { () async throws -> Int in throw Underlying() }
+         try await LoadError.catch(isolation: #isolation) { () async throws -> Int in throw Underlying() }
       }
    }
 }

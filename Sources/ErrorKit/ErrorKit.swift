@@ -149,11 +149,19 @@ public enum ErrorKit {
    /// 2. Shows the underlying cause (DatabaseError.connectionFailed)
    /// 3. Provides the user-friendly message for context (users will report this)
    ///
+   /// - Parameter error: The error to describe, potentially containing nested errors
+   /// - Returns: A formatted string showing the complete error hierarchy with indentation
+   public static func errorChainDescription(for error: Error) -> String {
+      Self.errorChainDescription(for: error, indent: "")
+   }
+
+   /// Describes the error chain with a prefix for every line after the first.
+   ///
    /// - Parameters:
    ///    - error: The error to describe, potentially containing nested errors
-   ///    - indent: A prefix for every line after the first. Pass the indentation of the surrounding text when you embed the chain in an already indented message.
+   ///    - indent: The indentation of the surrounding text when you embed the chain in an already indented message.
    /// - Returns: A formatted string showing the complete error hierarchy with indentation
-   public static func errorChainDescription(for error: Error, indent: String = "") -> String {
+   public static func errorChainDescription(for error: Error, indent: String) -> String {
       Self.chainDescription(for: error, indent: indent, enclosingType: type(of: error))
    }
 

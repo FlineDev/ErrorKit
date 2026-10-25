@@ -263,7 +263,8 @@ Be sure to explore the error chain debugging features to get the full benefit of
 
 - ``Catching``
 - ``Catching/catch(_:)-8kmn1``
-- ``Catching/catch(_:)``
+- ``Catching/catch(_:)-63mkk``
+- ``Catching/catch(isolation:_:)``
 
 ### System Overloads
 
