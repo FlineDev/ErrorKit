@@ -1,7 +1,6 @@
+import ErrorKit
 import Foundation
 import Testing
-
-@testable import ErrorKit
 
 enum ErrorKitTests {
    struct SomeLocalizedError: LocalizedError {
@@ -87,12 +86,12 @@ enum ErrorKitTests {
 
    enum ErrorChainDescription {
       struct MultilineThrowable: Throwable {
-         let userFriendlyMessage = "First line\n\nLast line\n"
+         let userFriendlyMessage: String
       }
 
       @Test(arguments: ["", "  ", "│ ", "\t>> "], [false, true])
       static func multilineMessageContinuationWithIndent(indent: String, deeplyNested: Bool) {
-         let leaf = MultilineThrowable()
+         let leaf = MultilineThrowable(userFriendlyMessage: "First line\n\nLast line\n")
          let error: any Error =
             deeplyNested
             ? StateError.caught(OperationError.caught(DatabaseError.caught(leaf)))
@@ -118,6 +117,26 @@ enum ErrorKitTests {
             """
          #expect(ErrorKit.errorChainDescription(for: error, indent: indent) == expected)
          #expect(ErrorKit.errorChainDescription(for: error) == ErrorKit.errorChainDescription(for: error, indent: ""))
+      }
+
+      @Test(arguments: ["\n", "\r\n", "\r", "\u{000B}", "\u{000C}", "\u{0085}", "\u{2028}", "\u{2029}"], [false, true])
+      static func newlineCharactersPreserveBytesAndIndent(separator: String, deeplyNested: Bool) {
+         let leaf = MultilineThrowable(userFriendlyMessage: "First line\(separator)\(separator)Last line\(separator)")
+         let error: any Error =
+            deeplyNested
+            ? StateError.caught(OperationError.caught(DatabaseError.caught(leaf)))
+            : leaf
+         for indent in ["", "│ "] {
+            let expected =
+               deeplyNested
+               ? "StateError\n\(indent)└─ OperationError\n\(indent)   └─ DatabaseError\n\(indent)      └─ MultilineThrowable [Struct]\n\(indent)         └─ userFriendlyMessage: \"First line\(separator)\(indent)\(separator)\(indent)Last line\(separator)\(indent)\""
+               : "MultilineThrowable [Struct]\n\(indent)└─ userFriendlyMessage: \"First line\(separator)\(indent)\(separator)\(indent)Last line\(separator)\(indent)\""
+            let actual = ErrorKit.errorChainDescription(for: error, indent: indent)
+            #expect(Array(actual.utf8) == Array(expected.utf8))
+            if indent.isEmpty {
+               #expect(Array(ErrorKit.errorChainDescription(for: error).utf8) == Array(expected.utf8))
+            }
+         }
       }
 
       @Test
