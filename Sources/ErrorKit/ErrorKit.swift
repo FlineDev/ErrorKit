@@ -152,7 +152,24 @@ public enum ErrorKit {
    /// - Parameter error: The error to describe, potentially containing nested errors
    /// - Returns: A formatted string showing the complete error hierarchy with indentation
    public static func errorChainDescription(for error: Error) -> String {
-      Self.chainDescription(for: error, indent: "", enclosingType: type(of: error))
+      Self.errorChainDescription(for: error, indent: "")
+   }
+
+   /// Describes the error chain with a prefix for every line after the first.
+   ///
+   /// - Parameters:
+   ///    - error: The error to describe, potentially containing nested errors
+   ///    - indent: The indentation of the surrounding text when you embed the chain in an already indented message.
+   /// - Returns: A formatted string showing the complete error hierarchy with indentation
+   public static func errorChainDescription(for error: Error, indent: String) -> String {
+      let description = Self.chainDescription(for: error, indent: "", enclosingType: type(of: error))
+      guard indent.isEmpty == false else { return description }
+      return description.reduce(into: "") { result, character in
+         result.append(character)
+         if character.isNewline {
+            result.append(indent)
+         }
+      }
    }
 
    private static func chainDescription(for error: Error, indent: String, enclosingType: Any.Type?) -> String {

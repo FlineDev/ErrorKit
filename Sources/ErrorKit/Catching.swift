@@ -174,10 +174,30 @@ extension Catching {
    /// }
    /// ```
    ///
+   /// Use ``catch(isolation:_:)`` with `isolation: #isolation` when the closure accesses actor-isolated state.
+   ///
    /// - Parameter operation: The async throwing operation to execute.
    /// - Returns: The value returned by the operation if successful.
    /// - Throws: An instance of `Self` with the original error wrapped in the `caught` case.
    public static func `catch`<ReturnType>(
+      _ operation: () async throws -> ReturnType
+   ) async throws(Self) -> ReturnType {
+      try await Self.catch(isolation: nil, operation)
+   }
+
+   /// Executes an async throwing operation while the wrapper inherits the specified actor's isolation.
+   ///
+   /// Pass `isolation: #isolation` to inherit the caller's actor. This lets an actor-local closure access
+   /// isolated state and capture non-Sendable values. An async operation value keeps its declared isolation;
+   /// this wrapper does not move an arbitrary operation onto the specified actor.
+   ///
+   /// - Parameters:
+   ///   - isolation: The actor whose isolation the wrapper inherits. Pass `#isolation` to use the caller's actor.
+   ///   - operation: The async throwing operation to execute.
+   /// - Returns: The value returned by the operation if successful.
+   /// - Throws: An instance of `Self` with the original error wrapped in the `caught` case.
+   public static func `catch`<ReturnType>(
+      isolation: isolated (any Actor)?,
       _ operation: () async throws -> ReturnType
    ) async throws(Self) -> ReturnType {
       do {

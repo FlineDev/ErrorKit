@@ -1,7 +1,6 @@
+import ErrorKit
 import Foundation
 import Testing
-
-@testable import ErrorKit
 
 enum ErrorKitTests {
    struct SomeLocalizedError: LocalizedError {
@@ -86,6 +85,60 @@ enum ErrorKitTests {
    }
 
    enum ErrorChainDescription {
+      struct MultilineThrowable: Throwable {
+         let userFriendlyMessage: String
+      }
+
+      @Test(arguments: ["", "  ", "│ ", "\t>> "], [false, true])
+      static func multilineMessageContinuationWithIndent(indent: String, deeplyNested: Bool) {
+         let leaf = MultilineThrowable(userFriendlyMessage: "First line\n\nLast line\n")
+         let error: any Error =
+            deeplyNested
+            ? StateError.caught(OperationError.caught(DatabaseError.caught(leaf)))
+            : leaf
+         let expected =
+            deeplyNested
+            ? """
+            StateError
+            \(indent)└─ OperationError
+            \(indent)   └─ DatabaseError
+            \(indent)      └─ MultilineThrowable [Struct]
+            \(indent)         └─ userFriendlyMessage: "First line
+            \(indent)
+            \(indent)Last line
+            \(indent)"
+            """
+            : """
+            MultilineThrowable [Struct]
+            \(indent)└─ userFriendlyMessage: "First line
+            \(indent)
+            \(indent)Last line
+            \(indent)"
+            """
+         #expect(ErrorKit.errorChainDescription(for: error, indent: indent) == expected)
+         #expect(ErrorKit.errorChainDescription(for: error) == ErrorKit.errorChainDescription(for: error, indent: ""))
+      }
+
+      @Test(arguments: ["\n", "\r\n", "\r", "\u{000B}", "\u{000C}", "\u{0085}", "\u{2028}", "\u{2029}"], [false, true])
+      static func newlineCharactersPreserveBytesAndIndent(separator: String, deeplyNested: Bool) {
+         let leaf = MultilineThrowable(userFriendlyMessage: "First line\(separator)\(separator)Last line\(separator)")
+         let error: any Error =
+            deeplyNested
+            ? StateError.caught(OperationError.caught(DatabaseError.caught(leaf)))
+            : leaf
+         for indent in ["", "│ "] {
+            let expected =
+               deeplyNested
+               ? "StateError\n\(indent)└─ OperationError\n\(indent)   └─ DatabaseError\n\(indent)      └─ MultilineThrowable [Struct]\n\(indent)         └─ userFriendlyMessage: \"First line\(separator)\(indent)\(separator)\(indent)Last line\(separator)\(indent)\""
+               : "MultilineThrowable [Struct]\n\(indent)└─ userFriendlyMessage: \"First line\(separator)\(indent)\(separator)\(indent)Last line\(separator)\(indent)\""
+            let actual = ErrorKit.errorChainDescription(for: error, indent: indent)
+            #expect(Array(actual.utf8) == Array(expected.utf8))
+            if indent.isEmpty {
+               #expect(Array(ErrorKit.errorChainDescription(for: error).utf8) == Array(expected.utf8))
+            }
+         }
+      }
+
       @Test
       static func localizedError() {
          #expect(
@@ -143,6 +196,18 @@ enum ErrorKitTests {
       }
 
       @Test
+      static func shallowNestedWithIndent() {
+         let nestedError = DatabaseError.caught(FileError.fileNotFound(fileName: "App.sqlite"))
+         let generatedErrorChainDescription = ErrorKit.errorChainDescription(for: nestedError, indent: "  ")
+         let expectedErrorChainDescription = """
+            DatabaseError
+              └─ FileError.fileNotFound(fileName: "App.sqlite")
+                 └─ userFriendlyMessage: "The file App.sqlite could not be located. Please verify the file path and try again."
+            """
+         #expect(generatedErrorChainDescription == expectedErrorChainDescription)
+      }
+
+      @Test
       static func deeplyNestedThrowablesWithEnumLeaf() {
          let nestedError = StateError.caught(
             OperationError.caught(
@@ -163,6 +228,30 @@ enum ErrorKitTests {
                         └─ userFriendlyMessage: "Access to ~/Downloads/Profile.png was declined. To use this feature, please enable the permission in your device Settings."
             """
          #expect(generatedErrorChainDescription == expectedErrorChainDescription)
+      }
+
+      @Test
+      static func deeplyNestedThrowablesWithIndent() {
+         let nestedError = StateError.caught(
+            OperationError.caught(
+               DatabaseError.caught(
+                  FileError.caught(
+                     PermissionError.denied(permission: "~/Downloads/Profile.png")
+                  )
+               )
+            )
+         )
+         let generatedErrorChainDescription = ErrorKit.errorChainDescription(for: nestedError, indent: ">>")
+         let expectedErrorChainDescription = """
+            StateError
+            >>└─ OperationError
+            >>   └─ DatabaseError
+            >>      └─ FileError
+            >>         └─ PermissionError.denied(permission: "~/Downloads/Profile.png")
+            >>            └─ userFriendlyMessage: "Access to ~/Downloads/Profile.png was declined. To use this feature, please enable the permission in your device Settings."
+            """
+         #expect(generatedErrorChainDescription == expectedErrorChainDescription)
+         #expect(ErrorKit.errorChainDescription(for: nestedError) == ErrorKit.errorChainDescription(for: nestedError, indent: ""))
       }
 
       @Test
